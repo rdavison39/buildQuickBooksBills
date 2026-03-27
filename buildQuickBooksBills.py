@@ -12,147 +12,108 @@ INPUT_DIR = os.path.join(BASE_DIR, "input")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 
 HOME_DEPOT_FILE = os.path.join(INPUT_DIR, "1.HomeDepotPurchases.csv")
-ITEM_FILE = os.path.join(INPUT_DIR, "2.QuickBooksItemList.csv")
 AMAZON_FILE = os.path.join(INPUT_DIR, "3.AmazonOrderHistory.csv")
 MASTERCARD_FILE = os.path.join(INPUT_DIR, "4.BMOMastercardTransactions.csv")
+MAPPING_FILE = os.path.join(OUTPUT_DIR, "master_mapping.csv")
 
 CUSTOMER_JOB = "20961 Skyler Road"
 
 
 # --------------------------------------------------
-# Text normalization
+# Clean Text
 # --------------------------------------------------
 
-def normalize(text):
+def clean_text(text):
 
     if pd.isna(text):
         return ""
 
-    text = str(text).lower()
-    text = re.sub(r'[^a-z0-9 ]', ' ', text)
+    text = str(text)
+
+    text = text.replace("\t", " ")
+    text = text.replace("\n", " ")
+    text = text.replace("\r", " ")
+
     text = re.sub(r'\s+', ' ', text)
 
     return text.strip()
 
 
 # --------------------------------------------------
-# Load QuickBooks Items
+# Clean Money
 # --------------------------------------------------
 
-def load_items():
+def clean_money(series):
 
-    print("\nLoading QuickBooks Items...")
-
-    df = pd.read_csv(ITEM_FILE)
-    df.columns = df.columns.str.strip()
-
-    items = []
-
-    current_item = None
-
-    for _, row in df.iterrows():
-
-        if str(row.iloc[0]) == "Item Name/Number":
-            current_item = str(row.iloc[1])
-
-        if str(row.iloc[0]) == "Description":
-
-            description = str(row.iloc[1])
-
-            search = normalize(current_item + " " + description)
-
-            words = set(search.split())
-
-            items.append({
-                "item": current_item,
-                "words": words
-            })
-
-    print(f"Loaded {len(items)} items")
-
-    return items
+    return pd.to_numeric(
+        series.astype(str)
+        .replace(r'[\$,]', '', regex=True)
+        .replace(r'\((.*)\)', r'-\1', regex=True),
+        errors="coerce"
+    )
 
 
 # --------------------------------------------------
-# Match item
+# Load Mapping
 # --------------------------------------------------
 
-def match_item(text, items):
+def load_mapping():
 
-    text_norm = normalize(text)
-    text_words = set(text_norm.split())
+    print("Loading master mapping...")
 
-    best_match = None
-    best_score = 0
+    df = pd.read_csv(MAPPING_FILE)
 
-    for item in items:
+    mapping = dict(zip(df["MappingKey"], df["SuggestedItem"]))
 
-        overlap = text_words.intersection(item["words"])
-        score = len(overlap)
+    print(f"Loaded {len(mapping)} mappings")
 
-        if score > best_score:
-            best_score = score
-            best_match = item["item"]
-
-    if best_match:
-        return best_match, "Word Match"
-
-    return "Uncategorized", "No Match"
+    return mapping
 
 
 # --------------------------------------------------
 # Home Depot
 # --------------------------------------------------
 
-def load_home_depot(items):
+def load_home_depot():
 
-    print("\nLoading Home Depot...")
+    print("Loading Home Depot...")
 
     df = pd.read_csv(HOME_DEPOT_FILE)
     df.columns = df.columns.str.strip()
 
-    print(f"Home Depot rows: {len(df)}")
-    print("Columns:", df.columns.tolist())
+    df["Source"] = "Home Depot"
+    df["Vendor"] = "Home Depot"
+
+    df["Description"] = (
+        df.get("Department Name","").fillna("").astype(str) + " " +
+        df.get("Class Name","").fillna("").astype(str) + " " +
+        df.get("Subclass Name","").fillna("").astype(str) + " " +
+        df.get("SKU Description","").fillna("").astype(str)
+    )
+
+    df["Description"] = df["Description"].apply(clean_text)
+
+    df["MappingKey"] = (
+        "HD-" +
+        df["Transaction ID"].astype(str) + "-" +
+        df["SKU Number"].astype(str)
+    )
 
     df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
 
-    df["Description"] = (
-        df["Department Name"].astype(str) + " " +
-        df["Class Name"].astype(str) + " " +
-        df["Subclass Name"].astype(str) + " " +
-        df["SKU Description"].astype(str)
-    )
+    amount_col = None
+    for col in df.columns:
+        if "extended" in col.lower() and "retail" in col.lower():
+            amount_col = col
+            break
 
-    mapped = df["Description"].apply(lambda x: match_item(x, items))
+    print(f"Using amount column: {amount_col}")
 
-    df["Item"] = mapped.apply(lambda x: x[0])
-    df["MappingReason"] = mapped.apply(lambda x: x[1])
+    df["Amount"] = clean_money(df[amount_col])
 
-    df["Vendor"] = "Home Depot"
-
-    # Clean Amount
-    df["Amount"] = (
-        df["Extended Retail (before discount)"]
-        .astype(str)
-        .str.replace("$", "", regex=False)
-        .str.replace(",", "", regex=False)
-        .str.strip()
-    )
-
-    df["Amount"] = pd.to_numeric(df["Amount"], errors="coerce")
-
-    print("Home Depot Amount Sample:")
-    print(df["Amount"].head())
-
-    # remove negative / zero
     df = df[df["Amount"] > 0]
 
     df["BillID"] = df["Transaction ID"]
-    df["Source"] = "HomeDepot"
-
-    mapped_count = (df["Item"] != "Uncategorized").sum()
-
-    print(f"Home Depot mapped: {mapped_count} / {len(df)}")
 
     return df
 
@@ -161,35 +122,31 @@ def load_home_depot(items):
 # Amazon
 # --------------------------------------------------
 
-def load_amazon(items):
+def load_amazon():
 
-    print("\nLoading Amazon...")
+    print("Loading Amazon...")
 
     df = pd.read_csv(AMAZON_FILE)
     df.columns = df.columns.str.strip()
 
-    print(f"Amazon rows: {len(df)}")
+    df["Source"] = "Amazon"
+    df["Vendor"] = "Amazon"
+
+    df["Description"] = df["Product Name"].apply(clean_text)
+
+    df["MappingKey"] = (
+        "AMZ-" +
+        df["Order ID"].astype(str) + "-" +
+        df.index.astype(str)
+    )
 
     df["Date"] = pd.to_datetime(df["Order Date"], errors="coerce")
 
-    df["Description"] = df["Product Name"]
-
-    df["Amount"] = pd.to_numeric(df["Total Amount"], errors="coerce")
+    df["Amount"] = clean_money(df["Total Amount"])
 
     df = df[df["Amount"] > 0]
 
-    mapped = df["Description"].apply(lambda x: match_item(x, items))
-
-    df["Item"] = mapped.apply(lambda x: x[0])
-    df["MappingReason"] = mapped.apply(lambda x: x[1])
-
-    df["Vendor"] = "Amazon"
     df["BillID"] = df["Order ID"]
-    df["Source"] = "Amazon"
-
-    mapped_count = (df["Item"] != "Uncategorized").sum()
-
-    print(f"Amazon mapped: {mapped_count} / {len(df)}")
 
     return df
 
@@ -198,38 +155,32 @@ def load_amazon(items):
 # Mastercard
 # --------------------------------------------------
 
-def load_mastercard(items):
+def load_mastercard():
 
-    print("\nLoading Mastercard...")
+    print("Loading Mastercard...")
 
     df = pd.read_csv(MASTERCARD_FILE)
     df.columns = df.columns.str.strip()
 
-    print(f"Mastercard rows: {len(df)}")
+    df["Source"] = "Mastercard"
+    df["Vendor"] = df["MERCHANT"].apply(clean_text)
+
+    df["Description"] = df["MERCHANT"].apply(clean_text)
+
+    df["MappingKey"] = (
+        "MC-" +
+        df["TRANSACTION DATE"].astype(str) + "-" +
+        df["BILLING AMOUNT"].astype(str) + "-" +
+        df["MERCHANT"].astype(str)
+    )
 
     df["Date"] = pd.to_datetime(df["TRANSACTION DATE"], errors="coerce")
 
-    df["Description"] = df["MERCHANT"]
-
-    df["Amount"] = pd.to_numeric(df["BILLING AMOUNT"], errors="coerce")
+    df["Amount"] = clean_money(df["BILLING AMOUNT"])
 
     df = df[df["Amount"] > 0]
 
-    mapped = df["Description"].apply(lambda x: match_item(x, items))
-
-    df["Item"] = mapped.apply(lambda x: x[0])
-    df["MappingReason"] = mapped.apply(lambda x: x[1])
-
-    df["Vendor"] = df["MERCHANT"]
     df["BillID"] = ["MC-" + str(i) for i in range(len(df))]
-    df["Source"] = "Mastercard"
-
-    df = df[~df["Vendor"].str.contains("Amazon", case=False)]
-    df = df[~df["Vendor"].str.contains("Home Depot", case=False)]
-
-    mapped_count = (df["Item"] != "Uncategorized").sum()
-
-    print(f"Mastercard mapped: {mapped_count} / {len(df)}")
 
     return df
 
@@ -240,94 +191,89 @@ def load_mastercard(items):
 
 def combine():
 
-    items = load_items()
+    mapping = load_mapping()
 
-    hd = load_home_depot(items)
-    amz = load_amazon(items)
-    mc = load_mastercard(items)
+    hd = load_home_depot()
+    amz = load_amazon()
+    mc = load_mastercard()
 
     df = pd.concat([hd, amz, mc])
 
-    print(f"\nTotal combined rows: {len(df)}")
+    df["Item"] = df["MappingKey"].map(mapping)
+
+    df["Item"] = df["Item"].fillna("Uncategorized")
+
+    df = df.dropna(subset=["Date"])
 
     return df
 
 
 # --------------------------------------------------
-# Review
+# Stats
 # --------------------------------------------------
 
-def write_review(df):
+def print_stats(df):
 
-    print("\nWriting review file...")
+    print("\n----------------------------------------")
+    print("Summary Statistics")
+    print("----------------------------------------")
 
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    for source in df["Source"].unique():
 
-    review = os.path.join(OUTPUT_DIR, "review_bills.csv")
+        sub = df[df["Source"] == source]
 
-    review_df = df[
-        [
-            "Date",
-            "Vendor",
-            "Item",
-            "Description",
-            "Amount",
-            "BillID",
-            "Source"
-        ]
-    ].copy()
+        items = len(sub)
+        bills = sub["BillID"].nunique()
+        matched = (sub["Item"] != "Uncategorized").sum()
+        total = sub["Amount"].sum()
 
-    review_df["CustomerJob"] = CUSTOMER_JOB
+        print(f"\n{source}")
+        print(f"  Line Items : {items:,}")
+        print(f"  Bills      : {bills:,}")
+        print(f"  Matched    : {matched:,}")
+        print(f"  Total      : ${total:,.2f}")
 
-    review_df = review_df[
-        [
-            "Date",
-            "Vendor",
-            "Item",
-            "Description",
-            "Amount",
-            "CustomerJob",
-            "BillID",
-            "Source"
-        ]
-    ]
-
-    review_df.to_csv(review, index=False)
+    print("\n----------------------------------------")
+    print(f"Grand Total: ${df['Amount'].sum():,.2f}")
+    print("----------------------------------------")
 
 
 # --------------------------------------------------
-# IIF
+# Write IIF (Bulletproof)
 # --------------------------------------------------
 
 def write_iif(df):
-
-    print("\nWriting IIF...")
 
     iif = os.path.join(OUTPUT_DIR, "quickbooks_bills.iif")
 
     with open(iif, "w", encoding="utf-8") as f:
 
-        f.write("!TRNS\tTRNSTYPE\tDATE\tACCNT\tNAME\tAMOUNT\n")
+        f.write("!TRNS\tTRNSTYPE\tDATE\tACCNT\tNAME\tAMOUNT\tDOCNUM\n")
         f.write("!SPL\tTRNSTYPE\tDATE\tACCNT\tNAME\tAMOUNT\tDOCNUM\tMEMO\tCLASS\n")
         f.write("!ENDTRNS\n")
 
         for bill, group in df.groupby("BillID"):
 
-            total = group["Amount"].sum()
+            total = round(group["Amount"].sum(), 2)
 
-            vendor = group.iloc[0]["Vendor"]
+            vendor = clean_text(group.iloc[0]["Vendor"])
+
             date = group.iloc[0]["Date"].strftime("%m/%d/%Y")
 
             f.write(
-                f"TRNS\tBILL\t{date}\tAccounts Payable\t{vendor}\t-{total}\n"
+                f"TRNS\tBILL\t{date}\tAccounts Payable\t{vendor}\t-{total}\t{bill}\n"
             )
 
             for _, r in group.iterrows():
 
-                desc = str(r["Description"]).encode("ascii", "ignore").decode()
+                desc = clean_text(r["Description"])
+
+                amount = round(r["Amount"], 2)
+
+                item = clean_text(r["Item"])
 
                 f.write(
-                    f"SPL\tBILL\t{date}\t{r['Item']}\t{vendor}\t{r['Amount']}\t{bill}\t{desc}\t{CUSTOMER_JOB}\n"
+                    f"SPL\tBILL\t{date}\t{item}\t{vendor}\t{amount}\t{bill}\t{desc}\t{CUSTOMER_JOB}\n"
                 )
 
             f.write("ENDTRNS\n")
@@ -340,13 +286,14 @@ def write_iif(df):
 def main():
 
     print("\n----------------------------------------")
-    print("QuickBooks Bill Builder")
+    print("Build QuickBooks Bills")
     print("----------------------------------------")
 
     df = combine()
 
-    write_review(df)
     write_iif(df)
+
+    print_stats(df)
 
     print("\nDone.")
 

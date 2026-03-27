@@ -18,9 +18,17 @@ MAPPING_FILE = os.path.join(INPUT_DIR, "6.Mapping.csv")
 
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "master_mapping.csv")
 
+# --------------------------------------------------
+# Stop Words
+# --------------------------------------------------
+
+STOP_WORDS = {
+    "and","or","the","for","with","in","on","at",
+    "to","from","by","of","a","an"
+}
 
 # --------------------------------------------------
-# Normalize text
+# Normalize
 # --------------------------------------------------
 
 def normalize(text):
@@ -30,20 +38,14 @@ def normalize(text):
 
     text = str(text).lower()
 
-    # remove numbers
-    text = re.sub(r'\d+', ' ', text)
-
-    # remove punctuation
-    text = re.sub(r'[^a-z ]', ' ', text)
-
-    # collapse spaces
+    text = re.sub(r'[^a-z0-9 ]', ' ', text)
     text = re.sub(r'\s+', ' ', text)
 
     return text.strip()
 
 
 # --------------------------------------------------
-# Load Mapping
+# Load Mapping List
 # --------------------------------------------------
 
 def load_mapping():
@@ -59,16 +61,24 @@ def load_mapping():
 
         item = str(row.iloc[0])
 
-        # Split hierarchy
         parts = item.split(":")
 
-        parts = [normalize(p) for p in parts]
+        clean = []
 
-        parts.reverse()  # most specific first
+        for p in parts:
+
+            p = normalize(p)
+
+            if "build phase" in p:
+                continue
+
+            clean.append(p)
+
+        clean.reverse()
 
         items.append({
             "item": item,
-            "parts": parts
+            "parts": clean
         })
 
     print(f"Loaded {len(items)} mapping items")
@@ -77,12 +87,15 @@ def load_mapping():
 
 
 # --------------------------------------------------
-# Match item
+# Match Item
 # --------------------------------------------------
 
 def match_item(text, items):
 
-    text_words = set(normalize(text).split())
+    text_words = set(
+        w for w in normalize(text).split()
+        if w not in STOP_WORDS
+    )
 
     best_item = "Uncategorized"
     best_score = 0
@@ -93,13 +106,15 @@ def match_item(text, items):
 
         for i, part in enumerate(item["parts"]):
 
-            part_words = set(part.split())
+            part_words = set(
+                w for w in part.split()
+                if w not in STOP_WORDS
+            )
 
             overlap = text_words.intersection(part_words)
 
             if overlap:
 
-                # weighted scoring
                 if i == 0:
                     score += 5 * len(overlap)
                 elif i == 1:
@@ -113,11 +128,12 @@ def match_item(text, items):
 
     return best_item, best_score
 
+
 # --------------------------------------------------
 # Home Depot
 # --------------------------------------------------
 
-def load_home_depot():
+def load_home_depot(items):
 
     print("Loading Home Depot...")
 
@@ -127,20 +143,42 @@ def load_home_depot():
     df["Vendor"] = "Home Depot"
 
     df["Description"] = (
-        df["Department Name"].fillna("").astype(str) + " " +
-        df["Class Name"].fillna("").astype(str) + " " +
-        df["Subclass Name"].fillna("").astype(str) + " " +
-        df["SKU Description"].fillna("").astype(str)
+        df["Department Name"].fillna("") + " " +
+        df["Class Name"].fillna("") + " " +
+        df["Subclass Name"].fillna("") + " " +
+        df["SKU Description"].fillna("")
     )
 
-    return df[["Vendor", "Description"]]
+    df["MappingKey"] = (
+        "HD-" +
+        df["Transaction ID"].astype(str) + "-" +
+        df["SKU Number"].astype(str)
+    )
+
+    mapped = df["Description"].apply(lambda x: match_item(x, items))
+
+    df["SuggestedItem"] = mapped.apply(lambda x: x[0])
+    df["Confidence"] = mapped.apply(lambda x: x[1])
+
+    df["Source"] = "HomeDepot"
+
+    return df[
+        [
+            "MappingKey",
+            "Source",
+            "Vendor",
+            "Description",
+            "SuggestedItem",
+            "Confidence"
+        ]
+    ]
 
 
 # --------------------------------------------------
 # Amazon
 # --------------------------------------------------
 
-def load_amazon():
+def load_amazon(items):
 
     print("Loading Amazon...")
 
@@ -148,16 +186,38 @@ def load_amazon():
     df.columns = df.columns.str.strip()
 
     df["Vendor"] = "Amazon"
-    df["Description"] = df["Product Name"].fillna("")
+    df["Description"] = df["Product Name"]
 
-    return df[["Vendor", "Description"]]
+    df["MappingKey"] = (
+        "AMZ-" +
+        df["Order ID"].astype(str) + "-" +
+        df.index.astype(str)
+    )
+
+    mapped = df["Description"].apply(lambda x: match_item(x, items))
+
+    df["SuggestedItem"] = mapped.apply(lambda x: x[0])
+    df["Confidence"] = mapped.apply(lambda x: x[1])
+
+    df["Source"] = "Amazon"
+
+    return df[
+        [
+            "MappingKey",
+            "Source",
+            "Vendor",
+            "Description",
+            "SuggestedItem",
+            "Confidence"
+        ]
+    ]
 
 
 # --------------------------------------------------
 # Mastercard
 # --------------------------------------------------
 
-def load_mastercard():
+def load_mastercard(items):
 
     print("Loading Mastercard...")
 
@@ -165,9 +225,32 @@ def load_mastercard():
     df.columns = df.columns.str.strip()
 
     df["Vendor"] = df["MERCHANT"]
-    df["Description"] = df["MERCHANT"].fillna("")
+    df["Description"] = df["MERCHANT"]
 
-    return df[["Vendor", "Description"]]
+    df["MappingKey"] = (
+        "MC-" +
+        df["TRANSACTION DATE"].astype(str) + "-" +
+        df["BILLING AMOUNT"].astype(str) + "-" +
+        df["MERCHANT"].astype(str)
+    )
+
+    mapped = df["Description"].apply(lambda x: match_item(x, items))
+
+    df["SuggestedItem"] = mapped.apply(lambda x: x[0])
+    df["Confidence"] = mapped.apply(lambda x: x[1])
+
+    df["Source"] = "Mastercard"
+
+    return df[
+        [
+            "MappingKey",
+            "Source",
+            "Vendor",
+            "Description",
+            "SuggestedItem",
+            "Confidence"
+        ]
+    ]
 
 
 # --------------------------------------------------
@@ -176,46 +259,27 @@ def load_mastercard():
 
 def main():
 
-    print("")
-    print("------------------------------------")
-    print("Building Master Mapping")
-    print("------------------------------------")
+    print("\n----------------------------------------")
+    print("Build Master Mapping")
+    print("----------------------------------------")
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     items = load_mapping()
 
-    hd = load_home_depot()
-    amz = load_amazon()
-    mc = load_mastercard()
+    hd = load_home_depot(items)
+    amz = load_amazon(items)
+    mc = load_mastercard(items)
 
     df = pd.concat([hd, amz, mc])
 
-    df = df.drop_duplicates()
+    df = df.drop_duplicates(subset=["MappingKey"])
 
-    print(f"Unique descriptions: {len(df)}")
-
-    results = []
-
-    for i, row in df.iterrows():
-
-        suggested, score = match_item(row["Description"], items)
-
-        results.append({
-            "ID": i,
-            "Vendor": row["Vendor"],
-            "Description": row["Description"],
-            "SuggestedItem": suggested,
-            "Confidence": score
-        })
-
-    result = pd.DataFrame(results)
-
-    result.to_csv(OUTPUT_FILE, index=False)
+    df.to_csv(OUTPUT_FILE, index=False)
 
     print("")
     print("master_mapping.csv created")
-    print(f"Output file: {OUTPUT_FILE}")
+    print(f"Rows: {len(df)}")
 
 
 if __name__ == "__main__":
