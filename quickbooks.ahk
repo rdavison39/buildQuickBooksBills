@@ -3,23 +3,39 @@ CoordMode, Mouse, Screen
 F2::
 
 ; --------------------------------------------------
-; Click first bill to start
+; Row counter (which bill we are processing)
 ; --------------------------------------------------
-Click 1603, 783
-Sleep 500
+row := 0
 
+; --------------------------------------------------
+; Main loop - process each bill
+; --------------------------------------------------
 Loop
 {
     ; --------------------------------------------------
-    ; Open currently selected bill
+    ; Always click first row in list
+    ; --------------------------------------------------
+    Click 1603, 783
+    Sleep 400
+
+    ; --------------------------------------------------
+    ; Move down to correct row
+    ; --------------------------------------------------
+    Loop %row%
+    {
+        Send {Down}
+        Sleep 150
+    }
+
+    ; --------------------------------------------------
+    ; Open selected bill
     ; --------------------------------------------------
     Send {Enter}
     Sleep 2000
 
 
     ; --------------------------------------------------
-    ; Move to "Customer Job" field
-    ; 13 tabs required
+    ; Move to Customer Job dropdown (13 tabs)
     ; --------------------------------------------------
     Loop 13
     {
@@ -31,7 +47,7 @@ Loop
 
 
     ; --------------------------------------------------
-    ; Loop through all line items in this bill
+    ; Loop through line items
     ; --------------------------------------------------
     Loop
     {
@@ -48,7 +64,7 @@ Loop
 
         Sleep 200
 
-        ; Move down to 20961 Skyler
+        ; Move down to "20961 Skyler"
         Loop 3
         {
             Send {Down}
@@ -57,7 +73,7 @@ Loop
 
         Sleep 200
 
-        ; Select item
+        ; Select value
         Send {Enter}
         Sleep 500
 
@@ -70,14 +86,14 @@ Loop
         Send ^c
         ClipWait, 1
 
-        ; If blank, no more line items
+        ; If blank → no more line items
         if (clipboard = "")
             break
     }
 
 
     ; --------------------------------------------------
-    ; Save and close bill
+    ; Save bill
     ; --------------------------------------------------
     Send !a
     Sleep 500
@@ -89,33 +105,7 @@ Loop
     ; --------------------------------------------------
     ; Move to next bill
     ; --------------------------------------------------
-    Send {Down}
-    Sleep 500
-
-
-    ; --------------------------------------------------
-    ; Try to open next bill
-    ; If nothing opens, we are at end
-    ; --------------------------------------------------
-    Send {Enter}
-    Sleep 1200
-
-
-    ; If bill didn't open, stop script
-    ; (QuickBooks window title usually changes when bill opens)
-    ; If it didn't change, we're done
-    ; --------------------------------------------------
-    ; Move back to list and break
-    IfWinNotActive, Enter Bills
-    {
-        break
-    }
-
-
-    ; We opened next bill, go back to loop start
-    ; Close it so loop opens cleanly next time
-    Send {Esc}
-    Sleep 500
+    row++
 }
 
 Return
