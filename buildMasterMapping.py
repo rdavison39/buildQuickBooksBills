@@ -138,6 +138,8 @@ def load_home_depot(items):
     print("Loading Home Depot...")
 
     df = pd.read_csv(HOME_DEPOT_FILE)
+    df = df.dropna(how="all")   # <-- Added
+
     df.columns = df.columns.str.strip()
 
     df["Vendor"] = "Home Depot"
@@ -183,6 +185,8 @@ def load_amazon(items):
     print("Loading Amazon...")
 
     df = pd.read_csv(AMAZON_FILE)
+    df = df.dropna(how="all")   # <-- Added
+
     df.columns = df.columns.str.strip()
 
     df["Vendor"] = "Amazon"
@@ -222,6 +226,8 @@ def load_mastercard(items):
     print("Loading Mastercard...")
 
     df = pd.read_csv(MASTERCARD_FILE)
+    df = df.dropna(how="all")   # <-- Added
+
     df.columns = df.columns.str.strip()
 
     df["Vendor"] = df["MERCHANT"]
