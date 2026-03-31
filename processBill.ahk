@@ -1,18 +1,11 @@
 ; ==================================================
 ; ProcessBill.ahk
-; --------------------------------------------------
-; Function: ProcessBill()
-; Purpose:
-;   Processes line items inside an open QuickBooks bill
-;   - Tabs to Customer Job
-;   - Updates each line item
-;   - Saves and closes bill
 ; ==================================================
 
 ProcessBill()
 {
     ; --------------------------------------------------
-    ; Move to Customer Job dropdown (13 tabs)
+    ; Move to Customer Job dropdown
     ; --------------------------------------------------
     Click 1497, 726 
     Loop 2
@@ -29,15 +22,16 @@ ProcessBill()
     ; --------------------------------------------------
     Loop
     {
+        found := false
+
         ; --------------------------------------------------
-        ; Open Customer Job dropdown
+        ; Open dropdown
         ; --------------------------------------------------
         Send !{Down}
         Sleep 400
 
-
         ; --------------------------------------------------
-        ; Move to top of dropdown list
+        ; Move to top
         ; --------------------------------------------------
         Loop 6
         {
@@ -45,27 +39,35 @@ ProcessBill()
             Sleep 80
         }
 
-        Sleep 200
-
-
         ; --------------------------------------------------
-        ; Move to "20961 Skyler"
+        ; Scan dropdown items
         ; --------------------------------------------------
-        Loop 3
+        Loop 6
         {
+            ; Select current item
+            Send {Enter}
+            Sleep 300
+
+            ; Copy selected value
+            clipboard := ""
+            Send ^c
+            ClipWait, .3
+
+            ; Check if correct job
+            if InStr(clipboard, "20961 Skyler")
+            {
+                found := true
+                break
+            }
+
+            ; Reopen dropdown
+            Send !{Down}
+            Sleep 200
+
+            ; Move down to next item
             Send {Down}
-            Sleep 80
+            Sleep 150
         }
-
-        Sleep 200
-
-
-        ; --------------------------------------------------
-        ; Select item
-        ; --------------------------------------------------
-        Send {Enter}
-        Sleep 500
-
 
         ; --------------------------------------------------
         ; Move to next line item
