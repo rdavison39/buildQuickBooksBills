@@ -1,62 +1,35 @@
-#Include ProcessBill.ahk
-
 ; ==================================================
-; ProcessVendor.ahk
-; Always reset to first row then move down
+; processVendor.ahk
+; Processes all bills for current vendor
 ; ==================================================
 
-CoordMode, Mouse, Screen
-
-F2::
-
-row := 0
-
-Loop
+ProcessVendor()
 {
-    ; --------------------------------------------------
-    ; Always anchor to first row
-    ; --------------------------------------------------
+    ; Focus first bill
     Click 1603, 783
     Sleep 400
 
-    ; --------------------------------------------------
-    ; Move to desired row
-    ; --------------------------------------------------
-    Loop %row%
+    Loop
     {
+        ; Open bill
+        Send {Enter}
+        Sleep 1500
+
+        ; Process bill
+        ProcessBill()
+
+        ; Move to next bill
         Send {Down}
-        Sleep 150
+        Sleep 200
+
+        ; Try open next bill
+        Send {Enter}
+        Sleep 1200
+
+        ; Detect if no more bills
+        WinGetTitle, title, A
+
+        if !InStr(title, "Bill")
+            break
     }
-
-    ; --------------------------------------------------
-    ; Try to open bill
-    ; --------------------------------------------------
-    Send {Enter}
-    Sleep 1200
-
-    ; --------------------------------------------------
-    ; If bill didn't open, we are done
-    ; (Window title changes when bill opens)
-    ; --------------------------------------------------
-    WinGetTitle, title, A
-
-    if !InStr(title, "Bill")
-    {
-        
-        break
-    }
-
-    ; --------------------------------------------------
-    ; Process bill
-    ; --------------------------------------------------
-    ProcessBill()
-
-    ; --------------------------------------------------
-    ; Move to next bill
-    ; --------------------------------------------------
-    row++
 }
-
-Return
-
-Esc::ExitApp

@@ -1,14 +1,12 @@
 ; ==================================================
-; ProcessBill.ahk
+; processBill.ahk
+; Process line items in bill
 ; ==================================================
 
 ProcessBill()
 {
-    ; --------------------------------------------------
     ; Move to Customer Job dropdown
-    ; --------------------------------------------------
-    Click 1497, 726 
-    Loop 2
+    Loop 13
     {
         Send {Tab}
         Sleep 80
@@ -17,68 +15,47 @@ ProcessBill()
     Sleep 500
 
 
-    ; --------------------------------------------------
-    ; Loop through all line items
-    ; --------------------------------------------------
+    ; Loop through line items
     Loop
     {
-        found := false
-
-        ; --------------------------------------------------
         ; Open dropdown
-        ; --------------------------------------------------
         Send !{Down}
         Sleep 400
 
-        ; --------------------------------------------------
         ; Move to top
-        ; --------------------------------------------------
         Loop 6
         {
             Send {Up}
             Sleep 80
         }
 
-        ; --------------------------------------------------
-        ; Scan dropdown items
-        ; --------------------------------------------------
+        Sleep 200
+
+        ; Search entries
         Loop 6
         {
-            ; Select current item
             Send {Enter}
             Sleep 300
 
-            ; Copy selected value
             clipboard := ""
             Send ^c
             ClipWait, .3
 
-            ; Check if correct job
             if InStr(clipboard, "20961 Skyler")
-            {
-                found := true
                 break
-            }
 
-            ; Reopen dropdown
             Send !{Down}
             Sleep 200
 
-            ; Move down to next item
             Send {Down}
             Sleep 150
         }
 
-        ; --------------------------------------------------
-        ; Move to next line item
-        ; --------------------------------------------------
+        ; Move to next line
         Send {Tab 8}
         Sleep 400
 
-
-        ; --------------------------------------------------
-        ; Check if next line exists
-        ; --------------------------------------------------
+        ; Detect end
         clipboard := ""
         Send ^c
         ClipWait, 1
@@ -87,13 +64,14 @@ ProcessBill()
             break
     }
 
-
-    ; --------------------------------------------------
     ; Save bill
-    ; --------------------------------------------------
     Send !a
     Sleep 500
 
     Send !y
-    Sleep 1200
+    Sleep 800
+
+    ; Handle linked transaction popup
+    Send {Enter}
+    Sleep 800
 }
