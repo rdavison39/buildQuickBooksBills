@@ -14,6 +14,7 @@
 ; - Process bill
 ; - Move down to next bill
 ; - Only re-click if focus lost
+; Beta 1.1
 ; ==================================================
 
 #NoEnv
@@ -121,7 +122,7 @@ ProcessVendor()
         ; Move to next bill
         Debug("Moving to next bill")
         Send {Down}
-        Sleep 400
+        Sleep 600
 
         ; Small pause for QuickBooks UI stability
         Sleep 200
@@ -150,4 +151,13 @@ ProcessSingleBill()
     ProcessBill()
 
     Debug("ProcessSingleBill finished")
+}
+
+TabLoop(x)
+{
+    Loop %x%
+    {
+        Send {Tab}
+        Sleep 100
+    }
 }

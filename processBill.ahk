@@ -1,6 +1,7 @@
 ; ==================================================
 ; processBill.ahk
 ; Process line items inside a bill
+; Beta 1.1
 ; ==================================================
 
 ProcessBill()
@@ -28,28 +29,9 @@ ClipWait, 0.5
 dropdownValue := clipboard
 ; msgBox drop down value is %dropdownValue%
 
-; Open dropdown
-Send !{Down}
-Sleep 1000
+processItemDropdown()
 
-; Move down one
-Send {Down}
-Sleep 1000
-
-
-send {enter}
-
-Send !{Down}
-; opendrop down
-Sleep 1000
-; Move up one
-Send {Up}
-Sleep 1000
-
-; select the entry
-send {enter}
-sleep 1000
-
+  
     Loop 6
     {
         if (StopProcessing)
@@ -115,19 +97,24 @@ sleep 1000
         }
 
         ; Move to next line
-        Send {Tab 8}
+        Send {Tab 2}
         Sleep 400
+
 
         ; Detect end
         clipboard := ""
         Send ^c
         ClipWait, 1
 
+        ;see if the itemlist is blank
         if (clipboard = "")
         {
             Debug("End of lines")
             break
         }
+                processItemDropdown()
+        send {Tab 6}
+        sleep 500
     }
 
     Debug("Saving bill")
@@ -155,4 +142,30 @@ sleep 1000
     }
 
     Debug("ProcessBill finished")
+}
+
+processItemDropdown()
+{
+
+; Open dropdown
+Send !{Down}
+Sleep 1000
+
+; Move down one
+Send {Down}
+Sleep 1000
+
+
+send {enter}
+
+Send !{Down}
+; opendrop down
+Sleep 1000
+; Move up one
+Send {Up}
+Sleep 1000
+
+; select the entry
+send {enter}
+sleep 1000
 }

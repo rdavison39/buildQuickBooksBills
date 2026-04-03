@@ -5998,3 +5998,1447 @@
 2026-04-02 20:38:24 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Costco]
 2026-04-02 20:38:24 - No bill opened - exiting loop
 2026-04-02 20:38:24 - ProcessVendor finished
+2026-04-02 21:01:04 - F2 pressed - starting ProcessVendor
+2026-04-02 21:01:04 - ProcessVendor start
+2026-04-02 21:01:04 - Initial position captured: 802,666
+2026-04-02 21:01:05 - Opening bill
+2026-04-02 21:01:06 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Home Goods]
+2026-04-02 21:01:06 - No bill opened - exiting loop
+2026-04-02 21:01:06 - ProcessVendor finished
+2026-04-02 21:01:09 - F2 pressed - starting ProcessVendor
+2026-04-02 21:01:09 - ProcessVendor start
+2026-04-02 21:01:09 - Initial position captured: 1428,779
+2026-04-02 21:01:09 - Opening bill
+2026-04-02 21:01:11 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:01:11 - Calling ProcessBill
+2026-04-02 21:01:11 - ProcessBill start
+2026-04-02 21:01:19 - Processing line item
+2026-04-02 21:01:20 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:01:21 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:01:22 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:01:23 - Clipboard: 20961 Skyler Road
+2026-04-02 21:01:23 - Matched Skyler
+2026-04-02 21:01:24 - End of lines
+2026-04-02 21:01:24 - Saving bill
+2026-04-02 21:01:25 - Recording Transaction dialog detected
+2026-04-02 21:01:25 - ProcessBill finished
+2026-04-02 21:01:26 - Moving to next bill
+2026-04-02 21:01:27 - Opening bill
+2026-04-02 21:01:28 - ESC pressed - stopping
+2026-04-02 21:01:28 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:01:28 - Calling ProcessBill
+2026-04-02 21:01:29 - ProcessBill start
+2026-04-02 21:01:29 - StopProcessing after ProcessBill
+2026-04-02 21:01:29 - ProcessVendor finished
+2026-04-02 21:01:30 - ESC pressed - stopping
+2026-04-02 21:11:12 - Starting vendor list processing
+2026-04-02 21:11:13 - Clicked vendor at Y: 428
+2026-04-02 21:11:14 - ProcessVendor start
+2026-04-02 21:11:14 - Initial position captured: 693,428
+2026-04-02 21:11:14 - Opening bill
+2026-04-02 21:11:16 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:11:16 - No bill opened - exiting loop
+2026-04-02 21:11:16 - ProcessVendor finished
+2026-04-02 21:11:16 - Moving to next vendor
+2026-04-02 21:11:18 - Clicked vendor at Y: 428
+2026-04-02 21:11:19 - ProcessVendor start
+2026-04-02 21:11:19 - Initial position captured: 1103,1338
+2026-04-02 21:11:19 - Opening bill
+2026-04-02 21:11:21 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:11:21 - No bill opened - exiting loop
+2026-04-02 21:11:21 - ProcessVendor finished
+2026-04-02 21:11:21 - Moving to next vendor
+2026-04-02 21:11:23 - Clicked vendor at Y: 428
+2026-04-02 21:11:24 - ProcessVendor start
+2026-04-02 21:11:24 - Initial position captured: 818,604
+2026-04-02 21:11:24 - Opening bill
+2026-04-02 21:11:26 - Window title: ? processVendorList.ahk - buildQuickBooksBills - Visual Studio Code
+2026-04-02 21:11:26 - Calling ProcessBill
+2026-04-02 21:11:26 - ProcessBill start
+2026-04-02 21:11:29 - ESC pressed - stopping
+2026-04-02 21:11:30 - ESC pressed - stopping
+2026-04-02 21:11:30 - ESC pressed - stopping
+2026-04-02 21:11:30 - ESC pressed - stopping
+2026-04-02 21:11:31 - ESC pressed - stopping
+2026-04-02 21:11:31 - ESC pressed - stopping
+2026-04-02 21:11:32 - StopProcessing after ProcessBill
+2026-04-02 21:11:32 - ProcessVendor finished
+2026-04-02 21:11:32 - Moving to next vendor
+2026-04-02 21:11:33 - ESC pressed - stopping
+2026-04-02 21:11:33 - ESC pressed - stopping
+2026-04-02 21:11:33 - Stopped by user
+2026-04-02 21:11:33 - Finished vendor list
+2026-04-02 21:15:06 - Starting vendor list processing
+2026-04-02 21:15:07 - Clicked vendor at Y: 431
+2026-04-02 21:15:07 - ProcessVendor start
+2026-04-02 21:15:07 - Initial position captured: 671,431
+2026-04-02 21:15:08 - Opening bill
+2026-04-02 21:15:09 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:15:09 - No bill opened - exiting loop
+2026-04-02 21:15:09 - ProcessVendor finished
+2026-04-02 21:15:09 - Moving to next vendor
+2026-04-02 21:15:10 - Clicked vendor at Y: 431
+2026-04-02 21:15:11 - ProcessVendor start
+2026-04-02 21:15:11 - Initial position captured: 671,431
+2026-04-02 21:15:11 - Opening bill
+2026-04-02 21:15:13 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:15:13 - No bill opened - exiting loop
+2026-04-02 21:15:13 - ProcessVendor finished
+2026-04-02 21:15:13 - Moving to next vendor
+2026-04-02 21:15:14 - Clicked vendor at Y: 431
+2026-04-02 21:15:15 - ESC pressed - stopping
+2026-04-02 21:15:15 - ProcessVendor start
+2026-04-02 21:15:15 - Initial position captured: 671,431
+2026-04-02 21:15:15 - StopProcessing detected
+2026-04-02 21:15:15 - ProcessVendor finished
+2026-04-02 21:15:15 - Moving to next vendor
+2026-04-02 21:15:16 - Stopped by user
+2026-04-02 21:15:16 - Finished vendor list
+2026-04-02 21:15:40 - Starting vendor list processing
+2026-04-02 21:15:41 - Clicked vendor at Y: 425
+2026-04-02 21:15:41 - ProcessVendor start
+2026-04-02 21:15:41 - Initial position captured: 625,425
+2026-04-02 21:15:42 - Opening bill
+2026-04-02 21:15:43 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:15:43 - No bill opened - exiting loop
+2026-04-02 21:15:43 - ProcessVendor finished
+2026-04-02 21:15:43 - Moving to next vendor
+2026-04-02 21:15:44 - Clicked vendor at Y: 425
+2026-04-02 21:15:45 - ProcessVendor start
+2026-04-02 21:15:45 - Initial position captured: 1263,53
+2026-04-02 21:15:45 - Opening bill
+2026-04-02 21:15:47 - Window title: New tab - Profile 1 - Microsoft? Edge
+2026-04-02 21:15:47 - No bill opened - exiting loop
+2026-04-02 21:15:47 - ProcessVendor finished
+2026-04-02 21:15:47 - Moving to next vendor
+2026-04-02 21:15:48 - Clicked vendor at Y: 425
+2026-04-02 21:15:48 - ESC pressed - stopping
+2026-04-02 21:15:49 - ProcessVendor start
+2026-04-02 21:15:49 - Initial position captured: 626,425
+2026-04-02 21:15:49 - StopProcessing detected
+2026-04-02 21:15:49 - ProcessVendor finished
+2026-04-02 21:15:49 - Moving to next vendor
+2026-04-02 21:15:50 - Stopped by user
+2026-04-02 21:15:50 - Finished vendor list
+2026-04-02 21:15:52 - ESC pressed - stopping
+2026-04-02 21:15:52 - ESC pressed - stopping
+2026-04-02 21:17:53 - Starting vendor list processing
+2026-04-02 21:17:54 - Clicked vendor at Y: 869
+2026-04-02 21:17:55 - ProcessVendor start
+2026-04-02 21:17:55 - Initial position captured: 1318,869
+2026-04-02 21:17:55 - Opening bill
+2026-04-02 21:17:56 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:17:56 - No bill opened - exiting loop
+2026-04-02 21:17:57 - ProcessVendor finished
+2026-04-02 21:17:57 - Moving to next vendor
+2026-04-02 21:17:58 - Clicked vendor at Y: 869
+2026-04-02 21:17:58 - ProcessVendor start
+2026-04-02 21:17:58 - Initial position captured: 1318,869
+2026-04-02 21:17:59 - Opening bill
+2026-04-02 21:18:00 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:18:00 - No bill opened - exiting loop
+2026-04-02 21:18:00 - ProcessVendor finished
+2026-04-02 21:18:00 - Moving to next vendor
+2026-04-02 21:18:01 - Clicked vendor at Y: 869
+2026-04-02 21:18:02 - ProcessVendor start
+2026-04-02 21:18:02 - Initial position captured: 1318,869
+2026-04-02 21:18:02 - Opening bill
+2026-04-02 21:18:04 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:18:04 - No bill opened - exiting loop
+2026-04-02 21:18:04 - ProcessVendor finished
+2026-04-02 21:18:04 - Moving to next vendor
+2026-04-02 21:18:05 - Clicked vendor at Y: 869
+2026-04-02 21:18:06 - ProcessVendor start
+2026-04-02 21:18:06 - Initial position captured: 779,433
+2026-04-02 21:18:06 - ESC pressed - stopping
+2026-04-02 21:18:06 - StopProcessing detected
+2026-04-02 21:18:06 - ProcessVendor finished
+2026-04-02 21:18:06 - Moving to next vendor
+2026-04-02 21:18:07 - Stopped by user
+2026-04-02 21:18:07 - Finished vendor list
+2026-04-02 21:18:08 - ESC pressed - stopping
+2026-04-02 21:18:23 - F2 pressed - starting ProcessVendor
+2026-04-02 21:18:23 - ProcessVendor start
+2026-04-02 21:18:23 - Initial position captured: 1277,790
+2026-04-02 21:18:23 - Opening bill
+2026-04-02 21:18:25 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:18:25 - Calling ProcessBill
+2026-04-02 21:18:25 - ProcessBill start
+2026-04-02 21:18:32 - Processing line item
+2026-04-02 21:18:34 - ESC pressed - stopping
+2026-04-02 21:18:34 - StopProcessing after ProcessBill
+2026-04-02 21:18:34 - ProcessVendor finished
+2026-04-02 21:18:37 - ESC pressed - stopping
+2026-04-02 21:20:36 - Starting vendor list processing
+2026-04-02 21:20:42 - Clicked vendor at Y: 427
+2026-04-02 21:20:43 - ProcessVendor start
+2026-04-02 21:20:43 - Initial position captured: 554,427
+2026-04-02 21:20:43 - Opening bill
+2026-04-02 21:20:45 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:20:45 - No bill opened - exiting loop
+2026-04-02 21:20:45 - ProcessVendor finished
+2026-04-02 21:20:45 - Moving to next vendor
+2026-04-02 21:20:46 - ESC pressed - stopping
+2026-04-02 21:20:49 - ESC pressed - stopping
+2026-04-02 21:20:50 - ESC pressed - stopping
+2026-04-02 21:20:50 - Clicked vendor at Y: 427
+2026-04-02 21:20:51 - ProcessVendor start
+2026-04-02 21:20:51 - Initial position captured: 1250,797
+2026-04-02 21:20:51 - StopProcessing detected
+2026-04-02 21:20:51 - ProcessVendor finished
+2026-04-02 21:20:51 - Moving to next vendor
+2026-04-02 21:20:51 - ESC pressed - stopping
+2026-04-02 21:20:52 - Stopped by user
+2026-04-02 21:20:52 - Finished vendor list
+2026-04-02 21:20:52 - ESC pressed - stopping
+2026-04-02 21:21:59 - F2 pressed - starting ProcessVendor
+2026-04-02 21:21:59 - ProcessVendor start
+2026-04-02 21:21:59 - Initial position captured: 693,432
+2026-04-02 21:22:00 - Opening bill
+2026-04-02 21:22:01 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:22:01 - No bill opened - exiting loop
+2026-04-02 21:22:01 - ProcessVendor finished
+2026-04-02 21:22:03 - Starting vendor list processing
+2026-04-02 21:22:10 - Clicked vendor at Y: 432
+2026-04-02 21:22:13 - ESC pressed - stopping
+2026-04-02 21:22:15 - ESC pressed - stopping
+2026-04-02 21:22:16 - ESC pressed - stopping
+2026-04-02 21:22:16 - ESC pressed - stopping
+2026-04-02 21:22:17 - ESC pressed - stopping
+2026-04-02 21:22:17 - ESC pressed - stopping
+2026-04-02 21:22:17 - ProcessVendor start
+2026-04-02 21:22:17 - Initial position captured: 1375,732
+2026-04-02 21:22:17 - StopProcessing detected
+2026-04-02 21:22:17 - ProcessVendor finished
+2026-04-02 21:22:17 - Moving to next vendor
+2026-04-02 21:22:18 - Stopped by user
+2026-04-02 21:22:18 - Finished vendor list
+2026-04-02 21:26:41 - Starting vendor list processing
+2026-04-02 21:26:46 - Clicked vendor at Y: 427
+2026-04-02 21:26:49 - ESC pressed - stopping
+2026-04-02 21:26:50 - ESC pressed - stopping
+2026-04-02 21:26:50 - ESC pressed - stopping
+2026-04-02 21:26:50 - ProcessVendor start
+2026-04-02 21:26:50 - Initial position captured: 1425,755
+2026-04-02 21:26:50 - StopProcessing detected
+2026-04-02 21:26:50 - ProcessVendor finished
+2026-04-02 21:26:50 - Moving to next vendor
+2026-04-02 21:26:51 - Stopped by user
+2026-04-02 21:26:51 - Finished vendor list
+2026-04-02 21:31:08 - Starting vendor list processing
+2026-04-02 21:31:12 - Clicked vendor at Y: 427
+2026-04-02 21:33:29 - Starting vendor list processing
+2026-04-02 21:33:33 - Clicked vendor at Y: 431
+2026-04-02 21:33:35 - ProcessVendor start
+2026-04-02 21:33:35 - Initial position captured: 1631,778
+2026-04-02 21:33:35 - Opening bill
+2026-04-02 21:33:37 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:33:37 - Calling ProcessBill
+2026-04-02 21:33:37 - ProcessBill start
+2026-04-02 21:33:45 - Processing line item
+2026-04-02 21:33:46 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:33:47 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:33:48 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:33:48 - Clipboard: 20961 Skyler Road
+2026-04-02 21:33:48 - Matched Skyler
+2026-04-02 21:33:50 - End of lines
+2026-04-02 21:33:50 - Saving bill
+2026-04-02 21:33:50 - Recording Transaction dialog detected
+2026-04-02 21:33:51 - ProcessBill finished
+2026-04-02 21:33:52 - Moving to next bill
+2026-04-02 21:33:52 - Opening bill
+2026-04-02 21:33:54 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:33:54 - No bill opened - exiting loop
+2026-04-02 21:33:54 - ProcessVendor finished
+2026-04-02 21:33:54 - Moving to next vendor
+2026-04-02 21:34:02 - Clicked vendor at Y: 431
+2026-04-02 21:34:05 - ESC pressed - stopping
+2026-04-02 21:34:07 - ESC pressed - stopping
+2026-04-02 21:34:07 - ProcessVendor start
+2026-04-02 21:34:07 - Initial position captured: 1631,778
+2026-04-02 21:34:07 - StopProcessing detected
+2026-04-02 21:34:07 - ProcessVendor finished
+2026-04-02 21:34:07 - Moving to next vendor
+2026-04-02 21:34:07 - ESC pressed - stopping
+2026-04-02 21:34:08 - Stopped by user
+2026-04-02 21:34:08 - Finished vendor list
+2026-04-02 21:36:57 - ESC pressed - stopping
+2026-04-02 21:39:44 - Starting vendor list processing
+2026-04-02 21:39:48 - Clicked vendor at Y: 429
+2026-04-02 21:39:51 - ProcessVendor start
+2026-04-02 21:39:51 - Initial position captured: 1631,778
+2026-04-02 21:39:51 - Opening bill
+2026-04-02 21:39:53 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:39:53 - Calling ProcessBill
+2026-04-02 21:39:53 - ProcessBill start
+2026-04-02 21:40:00 - Processing line item
+2026-04-02 21:40:02 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:40:03 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:40:03 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:40:04 - Clipboard: 20961 Skyler Road
+2026-04-02 21:40:04 - Matched Skyler
+2026-04-02 21:40:06 - End of lines
+2026-04-02 21:40:06 - Saving bill
+2026-04-02 21:40:07 - No Recording dialog
+2026-04-02 21:40:07 - ProcessBill finished
+2026-04-02 21:40:08 - Moving to next bill
+2026-04-02 21:40:08 - Opening bill
+2026-04-02 21:40:10 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:40:10 - No bill opened - exiting loop
+2026-04-02 21:40:10 - ProcessVendor finished
+2026-04-02 21:40:10 - Moving to next vendor
+2026-04-02 21:40:17 - Clicked vendor at Y: 429
+2026-04-02 21:40:24 - ProcessVendor start
+2026-04-02 21:40:24 - Initial position captured: 1631,778
+2026-04-02 21:40:24 - Opening bill
+2026-04-02 21:40:26 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:40:26 - Calling ProcessBill
+2026-04-02 21:40:26 - ProcessBill start
+2026-04-02 21:40:33 - ESC pressed - stopping
+2026-04-02 21:40:33 - StopProcessing after ProcessBill
+2026-04-02 21:40:33 - ProcessVendor finished
+2026-04-02 21:40:33 - Moving to next vendor
+2026-04-02 21:40:34 - Stopped by user
+2026-04-02 21:40:34 - Finished vendor list
+2026-04-02 21:44:07 - Starting vendor list processing
+2026-04-02 21:44:23 - Clicked vendor at Y: 427
+2026-04-02 21:44:26 - ProcessVendor start
+2026-04-02 21:44:26 - Initial position captured: 1631,778
+2026-04-02 21:44:26 - Opening bill
+2026-04-02 21:44:27 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:44:27 - Calling ProcessBill
+2026-04-02 21:44:28 - ProcessBill start
+2026-04-02 21:44:35 - Processing line item
+2026-04-02 21:44:37 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:44:37 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:44:38 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:44:39 - Clipboard: 20961 Skyler Road
+2026-04-02 21:44:39 - Matched Skyler
+2026-04-02 21:44:40 - End of lines
+2026-04-02 21:44:40 - Saving bill
+2026-04-02 21:44:42 - No Recording dialog
+2026-04-02 21:44:42 - ProcessBill finished
+2026-04-02 21:44:43 - Moving to next bill
+2026-04-02 21:44:43 - Opening bill
+2026-04-02 21:44:45 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:44:45 - No bill opened - exiting loop
+2026-04-02 21:44:45 - ProcessVendor finished
+2026-04-02 21:44:45 - Moving to next vendor
+2026-04-02 21:44:55 - ESC pressed - stopping
+2026-04-02 21:44:56 - Clicked vendor at Y: 427
+2026-04-02 21:44:59 - ESC pressed - stopping
+2026-04-02 21:44:59 - ProcessVendor start
+2026-04-02 21:44:59 - Initial position captured: 1629,768
+2026-04-02 21:44:59 - ESC pressed - stopping
+2026-04-02 21:45:00 - StopProcessing detected
+2026-04-02 21:45:00 - ProcessVendor finished
+2026-04-02 21:45:00 - Moving to next vendor
+2026-04-02 21:45:00 - ESC pressed - stopping
+2026-04-02 21:45:00 - Stopped by user
+2026-04-02 21:45:00 - Finished vendor list
+2026-04-02 21:46:31 - Starting vendor list processing
+2026-04-02 21:46:38 - Clicked vendor at Y: 427
+2026-04-02 21:46:45 - Moving to next vendor
+2026-04-02 21:46:48 - ESC pressed - stopping
+2026-04-02 21:46:49 - ESC pressed - stopping
+2026-04-02 21:46:49 - Clicked vendor at Y: 427
+2026-04-02 21:46:50 - ESC pressed - stopping
+2026-04-02 21:46:50 - ESC pressed - stopping
+2026-04-02 21:46:52 - ESC pressed - stopping
+2026-04-02 21:46:52 - ESC pressed - stopping
+2026-04-02 21:46:53 - ESC pressed - stopping
+2026-04-02 21:46:53 - ESC pressed - stopping
+2026-04-02 21:46:54 - Moving to next vendor
+2026-04-02 21:46:54 - ESC pressed - stopping
+2026-04-02 21:46:55 - ESC pressed - stopping
+2026-04-02 21:46:55 - Stopped by user
+2026-04-02 21:46:55 - Finished vendor list
+2026-04-02 21:46:55 - ESC pressed - stopping
+2026-04-02 21:46:55 - ESC pressed - stopping
+2026-04-02 21:46:55 - ESC pressed - stopping
+2026-04-02 21:46:55 - ESC pressed - stopping
+2026-04-02 21:46:56 - ESC pressed - stopping
+2026-04-02 21:46:56 - ESC pressed - stopping
+2026-04-02 21:47:40 - Starting vendor list processing
+2026-04-02 21:47:44 - Clicked vendor at Y: 421
+2026-04-02 21:47:47 - Moving to next vendor
+2026-04-02 21:47:51 - Clicked vendor at Y: 451
+2026-04-02 21:47:55 - Moving to next vendor
+2026-04-02 21:47:59 - Clicked vendor at Y: 481
+2026-04-02 21:48:00 - ESC pressed - stopping
+2026-04-02 21:48:00 - ESC pressed - stopping
+2026-04-02 21:48:00 - ESC pressed - stopping
+2026-04-02 21:48:01 - ESC pressed - stopping
+2026-04-02 21:48:01 - ESC pressed - stopping
+2026-04-02 21:48:01 - ESC pressed - stopping
+2026-04-02 21:48:01 - ESC pressed - stopping
+2026-04-02 21:48:01 - ESC pressed - stopping
+2026-04-02 21:48:02 - ESC pressed - stopping
+2026-04-02 21:48:02 - ESC pressed - stopping
+2026-04-02 21:48:02 - Moving to next vendor
+2026-04-02 21:48:02 - ESC pressed - stopping
+2026-04-02 21:48:02 - ESC pressed - stopping
+2026-04-02 21:48:03 - ESC pressed - stopping
+2026-04-02 21:48:03 - Stopped by user
+2026-04-02 21:48:03 - Finished vendor list
+2026-04-02 21:48:03 - ESC pressed - stopping
+2026-04-02 21:48:03 - ESC pressed - stopping
+2026-04-02 21:48:03 - ESC pressed - stopping
+2026-04-02 21:48:03 - ESC pressed - stopping
+2026-04-02 21:48:04 - ESC pressed - stopping
+2026-04-02 21:49:03 - Starting vendor list processing
+2026-04-02 21:49:22 - Starting vendor list processing
+2026-04-02 21:49:23 - Clicked vendor at Y: 399
+2026-04-02 21:49:24 - Moving to next vendor
+2026-04-02 21:49:26 - Clicked vendor at Y: 429
+2026-04-02 21:49:27 - Moving to next vendor
+2026-04-02 21:49:29 - Clicked vendor at Y: 459
+2026-04-02 21:49:30 - Moving to next vendor
+2026-04-02 21:49:32 - Clicked vendor at Y: 489
+2026-04-02 21:49:33 - Moving to next vendor
+2026-04-02 21:49:35 - Clicked vendor at Y: 519
+2026-04-02 21:49:36 - ESC pressed - stopping
+2026-04-02 21:49:36 - Moving to next vendor
+2026-04-02 21:49:37 - ESC pressed - stopping
+2026-04-02 21:49:37 - Stopped by user
+2026-04-02 21:49:37 - Finished vendor list
+2026-04-02 21:51:58 - Starting vendor list processing
+2026-04-02 21:51:59 - Clicked vendor at Y: 395
+2026-04-02 21:52:01 - ProcessVendor start
+2026-04-02 21:52:01 - Initial position captured: 1631,778
+2026-04-02 21:52:01 - Opening bill
+2026-04-02 21:52:02 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:52:02 - Calling ProcessBill
+2026-04-02 21:52:03 - ProcessBill start
+2026-04-02 21:52:10 - Processing line item
+2026-04-02 21:52:12 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:52:13 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:52:14 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:52:14 - Clipboard: 20961 Skyler Road
+2026-04-02 21:52:14 - Matched Skyler
+2026-04-02 21:52:16 - End of lines
+2026-04-02 21:52:16 - Saving bill
+2026-04-02 21:52:16 - Recording Transaction dialog detected
+2026-04-02 21:52:17 - ProcessBill finished
+2026-04-02 21:52:18 - Moving to next bill
+2026-04-02 21:52:18 - Opening bill
+2026-04-02 21:52:20 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:52:20 - Calling ProcessBill
+2026-04-02 21:52:21 - ProcessBill start
+2026-04-02 21:52:28 - Processing line item
+2026-04-02 21:52:30 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:52:30 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:52:31 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:52:32 - Clipboard: 20961 Skyler Road
+2026-04-02 21:52:32 - Matched Skyler
+2026-04-02 21:52:33 - End of lines
+2026-04-02 21:52:33 - Saving bill
+2026-04-02 21:52:34 - Recording Transaction dialog detected
+2026-04-02 21:52:34 - ProcessBill finished
+2026-04-02 21:52:35 - Moving to next bill
+2026-04-02 21:52:36 - Opening bill
+2026-04-02 21:52:38 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:52:38 - Calling ProcessBill
+2026-04-02 21:52:38 - ProcessBill start
+2026-04-02 21:52:46 - Processing line item
+2026-04-02 21:52:47 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:52:48 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:52:49 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:52:50 - Clipboard: 20961 Skyler Road
+2026-04-02 21:52:50 - Matched Skyler
+2026-04-02 21:52:51 - End of lines
+2026-04-02 21:52:51 - Saving bill
+2026-04-02 21:52:51 - Recording Transaction dialog detected
+2026-04-02 21:52:52 - ProcessBill finished
+2026-04-02 21:52:53 - Moving to next bill
+2026-04-02 21:52:54 - Opening bill
+2026-04-02 21:52:55 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:52:55 - Calling ProcessBill
+2026-04-02 21:52:56 - ProcessBill start
+2026-04-02 21:53:03 - Processing line item
+2026-04-02 21:53:05 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:53:06 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:53:06 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:53:07 - Clipboard: 20961 Skyler Road
+2026-04-02 21:53:07 - Matched Skyler
+2026-04-02 21:53:09 - End of lines
+2026-04-02 21:53:09 - Saving bill
+2026-04-02 21:53:09 - Recording Transaction dialog detected
+2026-04-02 21:53:10 - ProcessBill finished
+2026-04-02 21:53:10 - Moving to next bill
+2026-04-02 21:53:11 - Opening bill
+2026-04-02 21:53:13 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:53:13 - Calling ProcessBill
+2026-04-02 21:53:13 - ProcessBill start
+2026-04-02 21:53:21 - Processing line item
+2026-04-02 21:53:23 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:53:23 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:53:24 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:53:25 - Clipboard: 20961 Skyler Road
+2026-04-02 21:53:25 - Matched Skyler
+2026-04-02 21:53:26 - End of lines
+2026-04-02 21:53:26 - Saving bill
+2026-04-02 21:53:27 - Recording Transaction dialog detected
+2026-04-02 21:53:27 - ProcessBill finished
+2026-04-02 21:53:28 - Moving to next bill
+2026-04-02 21:53:29 - Opening bill
+2026-04-02 21:53:30 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: At Home Store]
+2026-04-02 21:53:30 - No bill opened - exiting loop
+2026-04-02 21:53:31 - ProcessVendor finished
+2026-04-02 21:53:31 - Moving to next vendor
+2026-04-02 21:53:33 - Clicked vendor at Y: 425
+2026-04-02 21:53:34 - ProcessVendor start
+2026-04-02 21:53:34 - Initial position captured: 1631,778
+2026-04-02 21:53:34 - Opening bill
+2026-04-02 21:53:35 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:53:35 - Calling ProcessBill
+2026-04-02 21:53:36 - ProcessBill start
+2026-04-02 21:53:43 - Processing line item
+2026-04-02 21:53:45 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:53:46 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:53:47 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:53:47 - Clipboard: 20961 Skyler Road
+2026-04-02 21:53:47 - Matched Skyler
+2026-04-02 21:53:49 - End of lines
+2026-04-02 21:53:49 - Saving bill
+2026-04-02 21:53:50 - No Recording dialog
+2026-04-02 21:53:50 - ProcessBill finished
+2026-04-02 21:53:51 - Moving to next bill
+2026-04-02 21:53:52 - Opening bill
+2026-04-02 21:53:53 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Bob Dean Supply Company]
+2026-04-02 21:53:53 - No bill opened - exiting loop
+2026-04-02 21:53:53 - ProcessVendor finished
+2026-04-02 21:53:53 - Moving to next vendor
+2026-04-02 21:53:55 - Clicked vendor at Y: 455
+2026-04-02 21:53:56 - ProcessVendor start
+2026-04-02 21:53:56 - Initial position captured: 1631,778
+2026-04-02 21:53:57 - Opening bill
+2026-04-02 21:53:58 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:53:58 - Calling ProcessBill
+2026-04-02 21:53:59 - ProcessBill start
+2026-04-02 21:54:06 - Processing line item
+2026-04-02 21:54:08 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:54:09 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:54:09 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:54:10 - Clipboard: 20961 Skyler Road
+2026-04-02 21:54:10 - Matched Skyler
+2026-04-02 21:54:12 - End of lines
+2026-04-02 21:54:12 - Saving bill
+2026-04-02 21:54:12 - Recording Transaction dialog detected
+2026-04-02 21:54:13 - ProcessBill finished
+2026-04-02 21:54:14 - Moving to next bill
+2026-04-02 21:54:14 - Opening bill
+2026-04-02 21:54:16 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:54:16 - Calling ProcessBill
+2026-04-02 21:54:16 - ProcessBill start
+2026-04-02 21:54:24 - Processing line item
+2026-04-02 21:54:25 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:54:26 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:54:27 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:54:28 - Clipboard: 20961 Skyler Road
+2026-04-02 21:54:28 - Matched Skyler
+2026-04-02 21:54:29 - End of lines
+2026-04-02 21:54:29 - Saving bill
+2026-04-02 21:54:30 - Recording Transaction dialog detected
+2026-04-02 21:54:30 - ProcessBill finished
+2026-04-02 21:54:31 - Moving to next bill
+2026-04-02 21:54:32 - Opening bill
+2026-04-02 21:54:33 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:54:33 - Calling ProcessBill
+2026-04-02 21:54:34 - ProcessBill start
+2026-04-02 21:54:41 - Processing line item
+2026-04-02 21:54:43 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:54:44 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:54:45 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:54:45 - Clipboard: 20961 Skyler Road
+2026-04-02 21:54:45 - Matched Skyler
+2026-04-02 21:54:47 - End of lines
+2026-04-02 21:54:47 - Saving bill
+2026-04-02 21:54:47 - Recording Transaction dialog detected
+2026-04-02 21:54:48 - ProcessBill finished
+2026-04-02 21:54:49 - Moving to next bill
+2026-04-02 21:54:49 - Opening bill
+2026-04-02 21:54:51 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:54:51 - Calling ProcessBill
+2026-04-02 21:54:51 - ProcessBill start
+2026-04-02 21:54:59 - Processing line item
+2026-04-02 21:55:01 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:55:01 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:55:02 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:55:03 - Clipboard: 20961 Skyler Road
+2026-04-02 21:55:03 - Matched Skyler
+2026-04-02 21:55:04 - End of lines
+2026-04-02 21:55:04 - Saving bill
+2026-04-02 21:55:05 - Recording Transaction dialog detected
+2026-04-02 21:55:05 - ProcessBill finished
+2026-04-02 21:55:06 - Moving to next bill
+2026-04-02 21:55:07 - Opening bill
+2026-04-02 21:55:09 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:55:09 - Calling ProcessBill
+2026-04-02 21:55:09 - ProcessBill start
+2026-04-02 21:55:17 - Processing line item
+2026-04-02 21:55:18 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:55:19 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:55:20 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:55:20 - Clipboard: 20961 Skyler Road
+2026-04-02 21:55:20 - Matched Skyler
+2026-04-02 21:55:22 - End of lines
+2026-04-02 21:55:22 - Saving bill
+2026-04-02 21:55:22 - Recording Transaction dialog detected
+2026-04-02 21:55:23 - ProcessBill finished
+2026-04-02 21:55:24 - Moving to next bill
+2026-04-02 21:55:25 - Opening bill
+2026-04-02 21:55:26 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:55:26 - Calling ProcessBill
+2026-04-02 21:55:27 - ProcessBill start
+2026-04-02 21:55:34 - Processing line item
+2026-04-02 21:55:36 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:55:37 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:55:37 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:55:38 - Clipboard: 20961 Skyler Road
+2026-04-02 21:55:38 - Matched Skyler
+2026-04-02 21:55:40 - End of lines
+2026-04-02 21:55:40 - Saving bill
+2026-04-02 21:55:40 - Recording Transaction dialog detected
+2026-04-02 21:55:41 - ProcessBill finished
+2026-04-02 21:55:41 - Moving to next bill
+2026-04-02 21:55:42 - Opening bill
+2026-04-02 21:55:44 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:55:44 - Calling ProcessBill
+2026-04-02 21:55:44 - ProcessBill start
+2026-04-02 21:55:52 - Processing line item
+2026-04-02 21:55:53 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:55:54 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:55:55 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:55:56 - Clipboard: 20961 Skyler Road
+2026-04-02 21:55:56 - Matched Skyler
+2026-04-02 21:55:57 - End of lines
+2026-04-02 21:55:57 - Saving bill
+2026-04-02 21:55:58 - Recording Transaction dialog detected
+2026-04-02 21:55:58 - ProcessBill finished
+2026-04-02 21:55:59 - Moving to next bill
+2026-04-02 21:56:00 - Opening bill
+2026-04-02 21:56:01 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: City Furniture]
+2026-04-02 21:56:01 - No bill opened - exiting loop
+2026-04-02 21:56:01 - ProcessVendor finished
+2026-04-02 21:56:01 - Moving to next vendor
+2026-04-02 21:56:03 - Clicked vendor at Y: 485
+2026-04-02 21:56:04 - ProcessVendor start
+2026-04-02 21:56:04 - Initial position captured: 1631,778
+2026-04-02 21:56:05 - Opening bill
+2026-04-02 21:56:06 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:56:06 - Calling ProcessBill
+2026-04-02 21:56:07 - ProcessBill start
+2026-04-02 21:56:14 - Processing line item
+2026-04-02 21:56:16 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:56:17 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:56:18 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:56:18 - Clipboard: 20961 Skyler Road
+2026-04-02 21:56:18 - Matched Skyler
+2026-04-02 21:56:20 - End of lines
+2026-04-02 21:56:20 - Saving bill
+2026-04-02 21:56:21 - No Recording dialog
+2026-04-02 21:56:21 - ProcessBill finished
+2026-04-02 21:56:22 - Moving to next bill
+2026-04-02 21:56:23 - Opening bill
+2026-04-02 21:56:24 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Costco]
+2026-04-02 21:56:24 - No bill opened - exiting loop
+2026-04-02 21:56:24 - ProcessVendor finished
+2026-04-02 21:56:24 - Moving to next vendor
+2026-04-02 21:56:26 - Clicked vendor at Y: 515
+2026-04-02 21:56:27 - ProcessVendor start
+2026-04-02 21:56:27 - Initial position captured: 1631,778
+2026-04-02 21:56:28 - Opening bill
+2026-04-02 21:56:29 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:56:29 - Calling ProcessBill
+2026-04-02 21:56:30 - ProcessBill start
+2026-04-02 21:56:37 - Processing line item
+2026-04-02 21:56:39 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:56:40 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:56:40 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:56:41 - Clipboard: 20961 Skyler Road
+2026-04-02 21:56:41 - Matched Skyler
+2026-04-02 21:56:43 - End of lines
+2026-04-02 21:56:43 - Saving bill
+2026-04-02 21:56:44 - No Recording dialog
+2026-04-02 21:56:44 - ProcessBill finished
+2026-04-02 21:56:45 - Moving to next bill
+2026-04-02 21:56:45 - Opening bill
+2026-04-02 21:56:47 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Costco]
+2026-04-02 21:56:47 - No bill opened - exiting loop
+2026-04-02 21:56:47 - ProcessVendor finished
+2026-04-02 21:56:47 - Moving to next vendor
+2026-04-02 21:56:49 - Clicked vendor at Y: 545
+2026-04-02 21:56:50 - ProcessVendor start
+2026-04-02 21:56:50 - Initial position captured: 1631,778
+2026-04-02 21:56:50 - Opening bill
+2026-04-02 21:56:52 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:56:52 - Calling ProcessBill
+2026-04-02 21:56:52 - ProcessBill start
+2026-04-02 21:57:00 - Processing line item
+2026-04-02 21:57:02 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:57:02 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:57:03 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:57:04 - Clipboard: 20961 Skyler Road
+2026-04-02 21:57:04 - Matched Skyler
+2026-04-02 21:57:04 - Processing line item
+2026-04-02 21:57:06 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:57:07 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:57:07 - Clipboard: 20961 Skyler Road
+2026-04-02 21:57:07 - Matched Skyler
+2026-04-02 21:57:09 - End of lines
+2026-04-02 21:57:09 - Saving bill
+2026-04-02 21:57:09 - Recording Transaction dialog detected
+2026-04-02 21:57:10 - ProcessBill finished
+2026-04-02 21:57:11 - Moving to next bill
+2026-04-02 21:57:12 - Opening bill
+2026-04-02 21:57:13 - Window title: Warning
+2026-04-02 21:57:13 - No bill opened - exiting loop
+2026-04-02 21:57:13 - ProcessVendor finished
+2026-04-02 21:57:13 - Moving to next vendor
+2026-04-02 21:57:15 - Clicked vendor at Y: 575
+2026-04-02 21:57:16 - ProcessVendor start
+2026-04-02 21:57:16 - Initial position captured: 1541,743
+2026-04-02 21:57:17 - Opening bill
+2026-04-02 21:57:18 - ESC pressed - stopping
+2026-04-02 21:57:18 - Window title: QuickBooks
+2026-04-02 21:57:18 - No bill opened - exiting loop
+2026-04-02 21:57:18 - ProcessVendor finished
+2026-04-02 21:57:18 - Moving to next vendor
+2026-04-02 21:57:18 - ESC pressed - stopping
+2026-04-02 21:57:19 - ESC pressed - stopping
+2026-04-02 21:57:19 - ESC pressed - stopping
+2026-04-02 21:57:19 - ESC pressed - stopping
+2026-04-02 21:57:19 - Stopped by user
+2026-04-02 21:57:19 - Finished vendor list
+2026-04-02 21:57:19 - ESC pressed - stopping
+2026-04-02 21:57:19 - ESC pressed - stopping
+2026-04-02 21:57:19 - ESC pressed - stopping
+2026-04-02 21:57:20 - ESC pressed - stopping
+2026-04-02 21:57:20 - ESC pressed - stopping
+2026-04-02 21:57:20 - ESC pressed - stopping
+2026-04-02 21:58:43 - Starting vendor list processing
+2026-04-02 21:58:44 - Clicked vendor at Y: 532
+2026-04-02 21:58:45 - ProcessVendor start
+2026-04-02 21:58:45 - Initial position captured: 1631,778
+2026-04-02 21:58:45 - Opening bill
+2026-04-02 21:58:47 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:58:47 - Calling ProcessBill
+2026-04-02 21:58:47 - ProcessBill start
+2026-04-02 21:58:55 - Processing line item
+2026-04-02 21:58:56 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:58:57 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:58:58 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:58:59 - Clipboard: 20961 Skyler Road
+2026-04-02 21:58:59 - Matched Skyler
+2026-04-02 21:59:00 - End of lines
+2026-04-02 21:59:00 - Saving bill
+2026-04-02 21:59:01 - Recording Transaction dialog detected
+2026-04-02 21:59:01 - ProcessBill finished
+2026-04-02 21:59:02 - Moving to next bill
+2026-04-02 21:59:03 - Opening bill
+2026-04-02 21:59:04 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:59:04 - Calling ProcessBill
+2026-04-02 21:59:05 - ProcessBill start
+2026-04-02 21:59:13 - Processing line item
+2026-04-02 21:59:14 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:59:15 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:59:16 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:59:16 - Clipboard: 20961 Skyler Road
+2026-04-02 21:59:16 - Matched Skyler
+2026-04-02 21:59:18 - End of lines
+2026-04-02 21:59:18 - Saving bill
+2026-04-02 21:59:18 - Recording Transaction dialog detected
+2026-04-02 21:59:19 - ProcessBill finished
+2026-04-02 21:59:20 - Moving to next bill
+2026-04-02 21:59:21 - Opening bill
+2026-04-02 21:59:22 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:59:22 - Calling ProcessBill
+2026-04-02 21:59:23 - ProcessBill start
+2026-04-02 21:59:30 - Processing line item
+2026-04-02 21:59:32 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:59:33 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:59:33 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:59:34 - Clipboard: 20961 Skyler Road
+2026-04-02 21:59:34 - Matched Skyler
+2026-04-02 21:59:36 - End of lines
+2026-04-02 21:59:36 - Saving bill
+2026-04-02 21:59:36 - Recording Transaction dialog detected
+2026-04-02 21:59:37 - ProcessBill finished
+2026-04-02 21:59:38 - Moving to next bill
+2026-04-02 21:59:38 - Opening bill
+2026-04-02 21:59:40 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:59:40 - Calling ProcessBill
+2026-04-02 21:59:40 - ProcessBill start
+2026-04-02 21:59:48 - Processing line item
+2026-04-02 21:59:50 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 21:59:50 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 21:59:51 - Clipboard: 1482 Constance (Build)
+2026-04-02 21:59:52 - Clipboard: 20961 Skyler Road
+2026-04-02 21:59:52 - Matched Skyler
+2026-04-02 21:59:53 - End of lines
+2026-04-02 21:59:53 - Saving bill
+2026-04-02 21:59:54 - Recording Transaction dialog detected
+2026-04-02 21:59:54 - ProcessBill finished
+2026-04-02 21:59:55 - Moving to next bill
+2026-04-02 21:59:56 - Opening bill
+2026-04-02 21:59:57 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 21:59:57 - Calling ProcessBill
+2026-04-02 21:59:58 - ProcessBill start
+2026-04-02 22:00:05 - Processing line item
+2026-04-02 22:00:07 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:00:08 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:00:09 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:00:09 - Clipboard: 20961 Skyler Road
+2026-04-02 22:00:09 - Matched Skyler
+2026-04-02 22:00:11 - End of lines
+2026-04-02 22:00:11 - Saving bill
+2026-04-02 22:00:11 - Recording Transaction dialog detected
+2026-04-02 22:00:12 - ProcessBill finished
+2026-04-02 22:00:13 - Moving to next bill
+2026-04-02 22:00:13 - Opening bill
+2026-04-02 22:00:15 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:00:15 - Calling ProcessBill
+2026-04-02 22:00:15 - ProcessBill start
+2026-04-02 22:00:23 - Processing line item
+2026-04-02 22:00:25 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:00:25 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:00:26 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:00:27 - Clipboard: 20961 Skyler Road
+2026-04-02 22:00:27 - Matched Skyler
+2026-04-02 22:00:28 - End of lines
+2026-04-02 22:00:28 - Saving bill
+2026-04-02 22:00:29 - Recording Transaction dialog detected
+2026-04-02 22:00:29 - ProcessBill finished
+2026-04-02 22:00:30 - Moving to next bill
+2026-04-02 22:00:31 - Opening bill
+2026-04-02 22:00:32 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:00:32 - Calling ProcessBill
+2026-04-02 22:00:33 - ProcessBill start
+2026-04-02 22:00:41 - Processing line item
+2026-04-02 22:00:42 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:00:43 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:00:44 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:00:44 - Clipboard: 20961 Skyler Road
+2026-04-02 22:00:44 - Matched Skyler
+2026-04-02 22:00:46 - End of lines
+2026-04-02 22:00:46 - Saving bill
+2026-04-02 22:00:46 - Recording Transaction dialog detected
+2026-04-02 22:00:47 - ProcessBill finished
+2026-04-02 22:00:48 - Moving to next bill
+2026-04-02 22:00:49 - Opening bill
+2026-04-02 22:00:50 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:00:50 - Calling ProcessBill
+2026-04-02 22:00:51 - ProcessBill start
+2026-04-02 22:00:58 - Processing line item
+2026-04-02 22:01:00 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:01:01 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:01:01 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:01:02 - Clipboard: 20961 Skyler Road
+2026-04-02 22:01:02 - Matched Skyler
+2026-04-02 22:01:03 - End of lines
+2026-04-02 22:01:03 - Saving bill
+2026-04-02 22:01:04 - Recording Transaction dialog detected
+2026-04-02 22:01:05 - ProcessBill finished
+2026-04-02 22:01:05 - Moving to next bill
+2026-04-02 22:01:06 - Opening bill
+2026-04-02 22:01:08 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:01:08 - Calling ProcessBill
+2026-04-02 22:01:08 - ProcessBill start
+2026-04-02 22:01:16 - Processing line item
+2026-04-02 22:01:18 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:01:18 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:01:19 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:01:20 - Clipboard: 20961 Skyler Road
+2026-04-02 22:01:20 - Matched Skyler
+2026-04-02 22:01:21 - End of lines
+2026-04-02 22:01:21 - Saving bill
+2026-04-02 22:01:22 - Recording Transaction dialog detected
+2026-04-02 22:01:22 - ProcessBill finished
+2026-04-02 22:01:23 - Moving to next bill
+2026-04-02 22:01:24 - Opening bill
+2026-04-02 22:01:25 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:01:25 - Calling ProcessBill
+2026-04-02 22:01:26 - ProcessBill start
+2026-04-02 22:01:33 - Processing line item
+2026-04-02 22:01:35 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:01:36 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:01:36 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:01:37 - Clipboard: 20961 Skyler Road
+2026-04-02 22:01:37 - Matched Skyler
+2026-04-02 22:01:39 - End of lines
+2026-04-02 22:01:39 - Saving bill
+2026-04-02 22:01:39 - Recording Transaction dialog detected
+2026-04-02 22:01:40 - ProcessBill finished
+2026-04-02 22:01:41 - Moving to next bill
+2026-04-02 22:01:41 - Opening bill
+2026-04-02 22:01:43 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:01:43 - Calling ProcessBill
+2026-04-02 22:01:43 - ProcessBill start
+2026-04-02 22:01:51 - Processing line item
+2026-04-02 22:01:53 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:01:53 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:01:54 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:01:55 - Clipboard: 20961 Skyler Road
+2026-04-02 22:01:55 - Matched Skyler
+2026-04-02 22:01:56 - End of lines
+2026-04-02 22:01:56 - Saving bill
+2026-04-02 22:01:57 - Recording Transaction dialog detected
+2026-04-02 22:01:57 - ProcessBill finished
+2026-04-02 22:01:58 - Moving to next bill
+2026-04-02 22:01:59 - Opening bill
+2026-04-02 22:02:00 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Costco Wholesale (Florida)]
+2026-04-02 22:02:00 - No bill opened - exiting loop
+2026-04-02 22:02:00 - ProcessVendor finished
+2026-04-02 22:02:00 - Moving to next vendor
+2026-04-02 22:02:02 - Clicked vendor at Y: 563
+2026-04-02 22:02:03 - ProcessVendor start
+2026-04-02 22:02:03 - Initial position captured: 1631,778
+2026-04-02 22:02:04 - Opening bill
+2026-04-02 22:02:05 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:02:05 - Calling ProcessBill
+2026-04-02 22:02:06 - ProcessBill start
+2026-04-02 22:02:13 - Processing line item
+2026-04-02 22:02:15 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:02:16 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:02:16 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:02:17 - Clipboard: 20961 Skyler Road
+2026-04-02 22:02:17 - Matched Skyler
+2026-04-02 22:02:19 - End of lines
+2026-04-02 22:02:19 - Saving bill
+2026-04-02 22:02:19 - Recording Transaction dialog detected
+2026-04-02 22:02:20 - ProcessBill finished
+2026-04-02 22:02:21 - Moving to next bill
+2026-04-02 22:02:21 - Opening bill
+2026-04-02 22:02:23 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: DIY Door]
+2026-04-02 22:02:23 - No bill opened - exiting loop
+2026-04-02 22:02:23 - ProcessVendor finished
+2026-04-02 22:02:23 - Moving to next vendor
+2026-04-02 22:02:25 - Clicked vendor at Y: 594
+2026-04-02 22:02:26 - ProcessVendor start
+2026-04-02 22:02:26 - Initial position captured: 1631,778
+2026-04-02 22:02:26 - Opening bill
+2026-04-02 22:02:28 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:02:28 - Calling ProcessBill
+2026-04-02 22:02:28 - ProcessBill start
+2026-04-02 22:02:36 - Processing line item
+2026-04-02 22:02:37 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:02:38 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:02:39 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:02:40 - Clipboard: 20961 Skyler Road
+2026-04-02 22:02:40 - Matched Skyler
+2026-04-02 22:02:41 - End of lines
+2026-04-02 22:02:41 - Saving bill
+2026-04-02 22:02:42 - Recording Transaction dialog detected
+2026-04-02 22:02:42 - ProcessBill finished
+2026-04-02 22:02:43 - Moving to next bill
+2026-04-02 22:02:44 - Opening bill
+2026-04-02 22:02:45 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Floor and Décor]
+2026-04-02 22:02:45 - No bill opened - exiting loop
+2026-04-02 22:02:45 - ProcessVendor finished
+2026-04-02 22:02:45 - Moving to next vendor
+2026-04-02 22:02:47 - Clicked vendor at Y: 625
+2026-04-02 22:02:48 - ProcessVendor start
+2026-04-02 22:02:48 - Initial position captured: 1631,778
+2026-04-02 22:02:49 - Opening bill
+2026-04-02 22:02:50 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:02:50 - Calling ProcessBill
+2026-04-02 22:02:51 - ProcessBill start
+2026-04-02 22:02:58 - Processing line item
+2026-04-02 22:03:00 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:03:01 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:03:01 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:03:02 - Clipboard: 20961 Skyler Road
+2026-04-02 22:03:02 - Matched Skyler
+2026-04-02 22:03:03 - Processing line item
+2026-04-02 22:03:04 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:03:05 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:03:06 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:03:07 - Clipboard: 20961 Skyler Road
+2026-04-02 22:03:07 - Matched Skyler
+2026-04-02 22:03:07 - Processing line item
+2026-04-02 22:03:09 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:03:09 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:03:10 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:03:11 - Clipboard: 20961 Skyler Road
+2026-04-02 22:03:11 - Matched Skyler
+2026-04-02 22:03:11 - ESC pressed - stopping
+2026-04-02 22:03:11 - StopProcessing after ProcessBill
+2026-04-02 22:03:11 - ProcessVendor finished
+2026-04-02 22:03:12 - Moving to next vendor
+2026-04-02 22:03:12 - ESC pressed - stopping
+2026-04-02 22:03:13 - Stopped by user
+2026-04-02 22:03:13 - Finished vendor list
+2026-04-02 22:03:13 - ESC pressed - stopping
+2026-04-02 22:03:37 - F2 pressed - starting ProcessVendor
+2026-04-02 22:03:37 - ProcessVendor start
+2026-04-02 22:03:37 - Initial position captured: 1403,793
+2026-04-02 22:03:38 - Opening bill
+2026-04-02 22:03:39 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:03:39 - Calling ProcessBill
+2026-04-02 22:03:40 - ProcessBill start
+2026-04-02 22:03:44 - ESC pressed - stopping
+2026-04-02 22:03:45 - ESC pressed - stopping
+2026-04-02 22:03:46 - StopProcessing after ProcessBill
+2026-04-02 22:03:46 - ProcessVendor finished
+2026-04-02 22:20:29 - F2 pressed - starting ProcessVendor
+2026-04-02 22:20:29 - ProcessVendor start
+2026-04-02 22:20:29 - Initial position captured: 1241,788
+2026-04-02 22:20:30 - Opening bill
+2026-04-02 22:20:31 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:20:31 - Calling ProcessBill
+2026-04-02 22:20:32 - ProcessBill start
+2026-04-02 22:20:39 - Processing line item
+2026-04-02 22:20:41 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:20:42 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:20:42 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:20:43 - Clipboard: 20961 Skyler Road
+2026-04-02 22:20:43 - Matched Skyler
+2026-04-02 22:20:50 - End of lines
+2026-04-02 22:20:50 - Saving bill
+2026-04-02 22:20:50 - Recording Transaction dialog detected
+2026-04-02 22:20:51 - ProcessBill finished
+2026-04-02 22:20:51 - Moving to next bill
+2026-04-02 22:20:52 - Opening bill
+2026-04-02 22:20:54 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:20:54 - Calling ProcessBill
+2026-04-02 22:20:54 - ProcessBill start
+2026-04-02 22:20:55 - ESC pressed - stopping
+2026-04-02 22:20:56 - ESC pressed - stopping
+2026-04-02 22:20:57 - ESC pressed - stopping
+2026-04-02 22:20:58 - ESC pressed - stopping
+2026-04-02 22:21:01 - StopProcessing after ProcessBill
+2026-04-02 22:21:01 - ProcessVendor finished
+2026-04-02 22:21:15 - ESC pressed - stopping
+2026-04-02 22:21:16 - ESC pressed - stopping
+2026-04-02 22:26:20 - F2 pressed - starting ProcessVendor
+2026-04-02 22:26:20 - ProcessVendor start
+2026-04-02 22:26:20 - Initial position captured: 1262,794
+2026-04-02 22:26:21 - Opening bill
+2026-04-02 22:26:22 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:26:22 - Calling ProcessBill
+2026-04-02 22:26:23 - ProcessBill start
+2026-04-02 22:26:30 - Processing line item
+2026-04-02 22:26:32 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:26:32 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:26:33 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:26:34 - Clipboard: 20961 Skyler Road
+2026-04-02 22:26:34 - Matched Skyler
+2026-04-02 22:26:39 - Processing line item
+2026-04-02 22:26:41 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:26:42 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:26:43 - Clipboard: 20961 Skyler Road
+2026-04-02 22:26:43 - Matched Skyler
+2026-04-02 22:26:48 - Processing line item
+2026-04-02 22:26:50 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:26:50 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:26:51 - Clipboard: 20961 Skyler Road
+2026-04-02 22:26:51 - Matched Skyler
+2026-04-02 22:26:52 - ESC pressed - stopping
+2026-04-02 22:26:52 - ESC pressed - stopping
+2026-04-02 22:26:53 - ESC pressed - stopping
+2026-04-02 22:26:53 - ESC pressed - stopping
+2026-04-02 22:26:53 - ESC pressed - stopping
+2026-04-02 22:26:53 - ESC pressed - stopping
+2026-04-02 22:26:53 - ESC pressed - stopping
+2026-04-02 22:26:54 - ESC pressed - stopping
+2026-04-02 22:26:54 - ESC pressed - stopping
+2026-04-02 22:26:55 - ESC pressed - stopping
+2026-04-02 22:26:55 - ESC pressed - stopping
+2026-04-02 22:26:55 - ESC pressed - stopping
+2026-04-02 22:26:56 - ESC pressed - stopping
+2026-04-02 22:26:58 - End of lines
+2026-04-02 22:26:58 - Saving bill
+2026-04-02 22:26:59 - No Recording dialog
+2026-04-02 22:26:59 - ProcessBill finished
+2026-04-02 22:26:59 - StopProcessing after ProcessBill
+2026-04-02 22:26:59 - ProcessVendor finished
+2026-04-02 22:26:59 - ESC pressed - stopping
+2026-04-02 22:27:58 - F2 pressed - starting ProcessVendor
+2026-04-02 22:27:58 - ProcessVendor start
+2026-04-02 22:27:58 - Initial position captured: 1875,792
+2026-04-02 22:27:58 - Opening bill
+2026-04-02 22:28:00 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:28:00 - Calling ProcessBill
+2026-04-02 22:28:00 - ProcessBill start
+2026-04-02 22:28:08 - Processing line item
+2026-04-02 22:28:09 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:28:10 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:28:11 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:28:12 - Clipboard: 20961 Skyler Road
+2026-04-02 22:28:12 - Matched Skyler
+2026-04-02 22:28:17 - Processing line item
+2026-04-02 22:28:19 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:28:20 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:28:20 - Clipboard: 20961 Skyler Road
+2026-04-02 22:28:20 - Matched Skyler
+2026-04-02 22:28:26 - ESC pressed - stopping
+2026-04-02 22:28:26 - StopProcessing after ProcessBill
+2026-04-02 22:28:26 - ProcessVendor finished
+2026-04-02 22:28:27 - ESC pressed - stopping
+2026-04-02 22:28:28 - ESC pressed - stopping
+2026-04-02 22:28:28 - ESC pressed - stopping
+2026-04-02 22:30:39 - ESC pressed - stopping
+2026-04-02 22:30:41 - ESC pressed - stopping
+2026-04-02 22:30:42 - ESC pressed - stopping
+2026-04-02 22:35:41 - F2 pressed - starting ProcessVendor
+2026-04-02 22:35:41 - ProcessVendor start
+2026-04-02 22:35:41 - Initial position captured: 1569,891
+2026-04-02 22:35:41 - Opening bill
+2026-04-02 22:35:42 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:35:42 - Calling ProcessBill
+2026-04-02 22:35:43 - ProcessBill start
+2026-04-02 22:35:50 - Processing line item
+2026-04-02 22:35:52 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:35:53 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:35:53 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:35:54 - Clipboard: 20961 Skyler Road
+2026-04-02 22:35:54 - Matched Skyler
+2026-04-02 22:36:00 - Processing line item
+2026-04-02 22:36:01 - Clipboard: 05. Build Phase:14. Electrical & Lighting:08. Trim-out
+2026-04-02 22:36:02 - Clipboard: 05. Build Phase:14. Electrical & Lighting:09. Ceiling fans
+2026-04-02 22:36:03 - Clipboard: 05. Build Phase:14. Electrical & Lighting:10. Panel wiring
+2026-04-02 22:36:04 - Clipboard: 05. Build Phase:14. Electrical & Lighting:11. Under counter lights
+2026-04-02 22:36:04 - Clipboard: 05. Build Phase:14. Electrical & Lighting:12. Bathroom fan
+2026-04-02 22:36:05 - Clipboard: 05. Build Phase:15. Plumbing
+2026-04-02 22:36:06 - ESC pressed - stopping
+2026-04-02 22:36:06 - ESC pressed - stopping
+2026-04-02 22:36:07 - ESC pressed - stopping
+2026-04-02 22:36:07 - ESC pressed - stopping
+2026-04-02 22:36:07 - ESC pressed - stopping
+2026-04-02 22:36:12 - End of lines
+2026-04-02 22:36:12 - Saving bill
+2026-04-02 22:36:12 - Recording Transaction dialog detected
+2026-04-02 22:36:13 - ProcessBill finished
+2026-04-02 22:36:13 - StopProcessing after ProcessBill
+2026-04-02 22:36:13 - ProcessVendor finished
+2026-04-02 22:36:13 - ESC pressed - stopping
+2026-04-02 22:36:13 - ESC pressed - stopping
+2026-04-02 22:36:14 - ESC pressed - stopping
+2026-04-02 22:36:14 - ESC pressed - stopping
+2026-04-02 22:36:14 - ESC pressed - stopping
+2026-04-02 22:39:25 - F2 pressed - starting ProcessVendor
+2026-04-02 22:39:25 - ProcessVendor start
+2026-04-02 22:39:25 - Initial position captured: 1417,826
+2026-04-02 22:39:25 - Opening bill
+2026-04-02 22:39:27 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:39:27 - Calling ProcessBill
+2026-04-02 22:39:27 - ProcessBill start
+2026-04-02 22:39:34 - Processing line item
+2026-04-02 22:39:36 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:39:37 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:39:37 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:39:38 - Clipboard: 20961 Skyler Road
+2026-04-02 22:39:38 - Matched Skyler
+2026-04-02 22:39:39 - Processing line item
+2026-04-02 22:39:40 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:39:41 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:39:42 - Clipboard: 20961 Skyler Road
+2026-04-02 22:39:42 - Matched Skyler
+2026-04-02 22:39:43 - End of lines
+2026-04-02 22:39:43 - Saving bill
+2026-04-02 22:39:44 - Recording Transaction dialog detected
+2026-04-02 22:39:44 - ProcessBill finished
+2026-04-02 22:39:45 - Moving to next bill
+2026-04-02 22:39:46 - Opening bill
+2026-04-02 22:39:48 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:39:48 - Calling ProcessBill
+2026-04-02 22:39:48 - ProcessBill start
+2026-04-02 22:39:55 - Processing line item
+2026-04-02 22:39:57 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:39:58 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:39:58 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:39:59 - Clipboard: 20961 Skyler Road
+2026-04-02 22:39:59 - Matched Skyler
+2026-04-02 22:40:01 - End of lines
+2026-04-02 22:40:01 - Saving bill
+2026-04-02 22:40:01 - Recording Transaction dialog detected
+2026-04-02 22:40:02 - ProcessBill finished
+2026-04-02 22:40:03 - Moving to next bill
+2026-04-02 22:40:03 - Opening bill
+2026-04-02 22:40:05 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:40:05 - Calling ProcessBill
+2026-04-02 22:40:05 - ProcessBill start
+2026-04-02 22:40:13 - Processing line item
+2026-04-02 22:40:14 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:40:15 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:40:16 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:40:17 - Clipboard: 20961 Skyler Road
+2026-04-02 22:40:17 - Matched Skyler
+2026-04-02 22:40:18 - End of lines
+2026-04-02 22:40:18 - Saving bill
+2026-04-02 22:40:19 - No Recording dialog
+2026-04-02 22:40:19 - ProcessBill finished
+2026-04-02 22:40:20 - Moving to next bill
+2026-04-02 22:40:21 - Opening bill
+2026-04-02 22:40:22 - ESC pressed - stopping
+2026-04-02 22:40:22 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:40:22 - Calling ProcessBill
+2026-04-02 22:40:23 - ProcessBill start
+2026-04-02 22:40:23 - StopProcessing after ProcessBill
+2026-04-02 22:40:23 - ProcessVendor finished
+2026-04-02 22:40:23 - ESC pressed - stopping
+2026-04-02 22:40:34 - F2 pressed - starting ProcessVendor
+2026-04-02 22:40:34 - ProcessVendor start
+2026-04-02 22:40:34 - Initial position captured: 1214,1034
+2026-04-02 22:40:34 - Opening bill
+2026-04-02 22:40:35 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:40:35 - Calling ProcessBill
+2026-04-02 22:40:36 - ProcessBill start
+2026-04-02 22:40:43 - Processing line item
+2026-04-02 22:40:45 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:40:45 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:40:46 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:40:47 - Clipboard: 20961 Skyler Road
+2026-04-02 22:40:47 - Matched Skyler
+2026-04-02 22:40:48 - End of lines
+2026-04-02 22:40:48 - Saving bill
+2026-04-02 22:40:49 - Recording Transaction dialog detected
+2026-04-02 22:40:50 - ProcessBill finished
+2026-04-02 22:40:50 - Moving to next bill
+2026-04-02 22:40:51 - Opening bill
+2026-04-02 22:40:53 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:40:53 - Calling ProcessBill
+2026-04-02 22:40:53 - ProcessBill start
+2026-04-02 22:41:00 - Processing line item
+2026-04-02 22:41:02 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:41:03 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:41:04 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:41:04 - Clipboard: 20961 Skyler Road
+2026-04-02 22:41:04 - Matched Skyler
+2026-04-02 22:41:06 - End of lines
+2026-04-02 22:41:06 - Saving bill
+2026-04-02 22:41:06 - Recording Transaction dialog detected
+2026-04-02 22:41:07 - ProcessBill finished
+2026-04-02 22:41:08 - Moving to next bill
+2026-04-02 22:41:09 - Opening bill
+2026-04-02 22:41:10 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:41:10 - Calling ProcessBill
+2026-04-02 22:41:11 - ProcessBill start
+2026-04-02 22:41:11 - ESC pressed - stopping
+2026-04-02 22:41:12 - ESC pressed - stopping
+2026-04-02 22:41:13 - ESC pressed - stopping
+2026-04-02 22:41:14 - ESC pressed - stopping
+2026-04-02 22:41:14 - ESC pressed - stopping
+2026-04-02 22:41:15 - ESC pressed - stopping
+2026-04-02 22:41:15 - ESC pressed - stopping
+2026-04-02 22:41:16 - ESC pressed - stopping
+2026-04-02 22:41:16 - ESC pressed - stopping
+2026-04-02 22:41:17 - StopProcessing after ProcessBill
+2026-04-02 22:41:17 - ProcessVendor finished
+2026-04-02 22:41:24 - ESC pressed - stopping
+2026-04-02 22:41:29 - F2 pressed - starting ProcessVendor
+2026-04-02 22:41:29 - ProcessVendor start
+2026-04-02 22:41:29 - Initial position captured: 1288,783
+2026-04-02 22:41:29 - Opening bill
+2026-04-02 22:41:31 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:41:31 - Calling ProcessBill
+2026-04-02 22:41:31 - ProcessBill start
+2026-04-02 22:41:39 - Processing line item
+2026-04-02 22:41:40 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:41:41 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:41:42 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:41:43 - Clipboard: 20961 Skyler Road
+2026-04-02 22:41:43 - Matched Skyler
+2026-04-02 22:41:44 - End of lines
+2026-04-02 22:41:44 - Saving bill
+2026-04-02 22:41:45 - No Recording dialog
+2026-04-02 22:41:45 - ProcessBill finished
+2026-04-02 22:41:46 - Moving to next bill
+2026-04-02 22:41:47 - Opening bill
+2026-04-02 22:41:48 - ESC pressed - stopping
+2026-04-02 22:41:49 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:41:49 - Calling ProcessBill
+2026-04-02 22:41:49 - ProcessBill start
+2026-04-02 22:41:49 - StopProcessing after ProcessBill
+2026-04-02 22:41:49 - ProcessVendor finished
+2026-04-02 22:48:01 - F2 pressed - starting ProcessVendor
+2026-04-02 22:48:01 - ProcessVendor start
+2026-04-02 22:48:01 - Initial position captured: 1424,791
+2026-04-02 22:48:01 - Opening bill
+2026-04-02 22:48:02 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:48:02 - Calling ProcessBill
+2026-04-02 22:48:03 - ProcessBill start
+2026-04-02 22:48:10 - Processing line item
+2026-04-02 22:48:12 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:48:13 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:48:13 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:48:14 - Clipboard: 20961 Skyler Road
+2026-04-02 22:48:14 - Matched Skyler
+2026-04-02 22:48:15 - Processing line item
+2026-04-02 22:48:16 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:48:17 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:48:18 - Clipboard: 20961 Skyler Road
+2026-04-02 22:48:18 - Matched Skyler
+2026-04-02 22:48:18 - Processing line item
+2026-04-02 22:48:20 - ESC pressed - stopping
+2026-04-02 22:48:20 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:48:20 - StopProcessing after ProcessBill
+2026-04-02 22:48:20 - ProcessVendor finished
+2026-04-02 22:48:21 - ESC pressed - stopping
+2026-04-02 22:48:22 - ESC pressed - stopping
+2026-04-02 22:50:02 - F2 pressed - starting ProcessVendor
+2026-04-02 22:50:02 - ProcessVendor start
+2026-04-02 22:50:02 - Initial position captured: 1427,794
+2026-04-02 22:50:02 - Opening bill
+2026-04-02 22:50:03 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:50:03 - Calling ProcessBill
+2026-04-02 22:50:04 - ProcessBill start
+2026-04-02 22:50:11 - Processing line item
+2026-04-02 22:50:13 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:50:14 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:50:14 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:50:15 - Clipboard: 20961 Skyler Road
+2026-04-02 22:50:15 - Matched Skyler
+2026-04-02 22:50:22 - End of lines
+2026-04-02 22:50:22 - Saving bill
+2026-04-02 22:50:22 - Recording Transaction dialog detected
+2026-04-02 22:50:23 - ProcessBill finished
+2026-04-02 22:50:24 - Moving to next bill
+2026-04-02 22:50:25 - Opening bill
+2026-04-02 22:50:26 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:50:26 - Calling ProcessBill
+2026-04-02 22:50:26 - ESC pressed - stopping
+2026-04-02 22:50:27 - ESC pressed - stopping
+2026-04-02 22:50:27 - ProcessBill start
+2026-04-02 22:50:27 - ESC pressed - stopping
+2026-04-02 22:50:27 - StopProcessing after ProcessBill
+2026-04-02 22:50:27 - ProcessVendor finished
+2026-04-02 22:50:27 - ESC pressed - stopping
+2026-04-02 22:50:34 - ESC pressed - stopping
+2026-04-02 22:52:48 - F2 pressed - starting ProcessVendor
+2026-04-02 22:52:48 - ProcessVendor start
+2026-04-02 22:52:48 - Initial position captured: 1201,791
+2026-04-02 22:52:48 - Opening bill
+2026-04-02 22:52:50 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:52:50 - Calling ProcessBill
+2026-04-02 22:52:50 - ProcessBill start
+2026-04-02 22:52:58 - Processing line item
+2026-04-02 22:52:59 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:53:00 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:53:01 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:53:02 - Clipboard: 20961 Skyler Road
+2026-04-02 22:53:02 - Matched Skyler
+2026-04-02 22:53:08 - Processing line item
+2026-04-02 22:53:09 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:53:10 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:53:11 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:53:12 - Clipboard: 20961 Skyler Road
+2026-04-02 22:53:12 - Matched Skyler
+2026-04-02 22:53:18 - Processing line item
+2026-04-02 22:53:19 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:53:20 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:53:21 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:53:22 - Clipboard: 20961 Skyler Road
+2026-04-02 22:53:22 - Matched Skyler
+2026-04-02 22:53:28 - Processing line item
+2026-04-02 22:53:29 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:53:30 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:53:31 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:53:32 - Clipboard: 20961 Skyler Road
+2026-04-02 22:53:32 - Matched Skyler
+2026-04-02 22:53:35 - ESC pressed - stopping
+2026-04-02 22:53:35 - ESC pressed - stopping
+2026-04-02 22:53:36 - ESC pressed - stopping
+2026-04-02 22:53:37 - ESC pressed - stopping
+2026-04-02 22:53:37 - ESC pressed - stopping
+2026-04-02 22:53:37 - ESC pressed - stopping
+2026-04-02 22:53:38 - StopProcessing after ProcessBill
+2026-04-02 22:53:38 - ProcessVendor finished
+2026-04-02 22:55:04 - Starting vendor list processing
+2026-04-02 22:55:05 - Clicked vendor at Y: 745
+2026-04-02 22:55:06 - ProcessVendor start
+2026-04-02 22:55:06 - Initial position captured: 1631,778
+2026-04-02 22:55:07 - Opening bill
+2026-04-02 22:55:08 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:55:08 - Calling ProcessBill
+2026-04-02 22:55:09 - ProcessBill start
+2026-04-02 22:55:16 - Processing line item
+2026-04-02 22:55:18 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:55:18 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:55:19 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:55:20 - Clipboard: 20961 Skyler Road
+2026-04-02 22:55:20 - Matched Skyler
+2026-04-02 22:55:26 - Processing line item
+2026-04-02 22:55:28 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:55:28 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:55:29 - Clipboard: 20961 Skyler Road
+2026-04-02 22:55:29 - Matched Skyler
+2026-04-02 22:55:35 - Processing line item
+2026-04-02 22:55:37 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:55:38 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:55:38 - Clipboard: 20961 Skyler Road
+2026-04-02 22:55:38 - Matched Skyler
+2026-04-02 22:55:41 - ESC pressed - stopping
+2026-04-02 22:55:42 - ESC pressed - stopping
+2026-04-02 22:55:43 - ESC pressed - stopping
+2026-04-02 22:55:44 - ESC pressed - stopping
+2026-04-02 22:55:44 - StopProcessing after ProcessBill
+2026-04-02 22:55:44 - ProcessVendor finished
+2026-04-02 22:55:44 - Moving to next vendor
+2026-04-02 22:55:45 - Stopped by user
+2026-04-02 22:55:45 - Finished vendor list
+2026-04-02 22:56:19 - Starting vendor list processing
+2026-04-02 22:56:20 - Clicked vendor at Y: 744
+2026-04-02 22:56:22 - ProcessVendor start
+2026-04-02 22:56:22 - Initial position captured: 1631,778
+2026-04-02 22:56:22 - Opening bill
+2026-04-02 22:56:23 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:56:23 - Calling ProcessBill
+2026-04-02 22:56:24 - ProcessBill start
+2026-04-02 22:56:31 - Processing line item
+2026-04-02 22:56:33 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:56:33 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:56:34 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:56:35 - Clipboard: 20961 Skyler Road
+2026-04-02 22:56:35 - Matched Skyler
+2026-04-02 22:56:37 - End of lines
+2026-04-02 22:56:37 - Saving bill
+2026-04-02 22:56:37 - Recording Transaction dialog detected
+2026-04-02 22:56:38 - ProcessBill finished
+2026-04-02 22:56:38 - Moving to next bill
+2026-04-02 22:56:39 - Opening bill
+2026-04-02 22:56:41 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Vendor Centre: Kanes Furniture]
+2026-04-02 22:56:41 - No bill opened - exiting loop
+2026-04-02 22:56:41 - ProcessVendor finished
+2026-04-02 22:56:41 - Moving to next vendor
+2026-04-02 22:56:43 - Clicked vendor at Y: 775
+2026-04-02 22:56:44 - ProcessVendor start
+2026-04-02 22:56:44 - Initial position captured: 1631,778
+2026-04-02 22:56:44 - Opening bill
+2026-04-02 22:56:46 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:56:46 - Calling ProcessBill
+2026-04-02 22:56:46 - ProcessBill start
+2026-04-02 22:56:53 - Processing line item
+2026-04-02 22:56:55 - Clipboard: 1075 Ed Briese (Barn)
+2026-04-02 22:56:56 - Clipboard: 1194 Ed Briese - Landscaping
+2026-04-02 22:56:57 - Clipboard: 1482 Constance (Build)
+2026-04-02 22:56:57 - Clipboard: 20961 Skyler Road
+2026-04-02 22:56:57 - Matched Skyler
+2026-04-02 22:56:59 - End of lines
+2026-04-02 22:56:59 - Saving bill
+2026-04-02 22:56:59 - Recording Transaction dialog detected
+2026-04-02 22:57:00 - ProcessBill finished
+2026-04-02 22:57:01 - Moving to next bill
+2026-04-02 22:57:01 - Opening bill
+2026-04-02 22:57:03 - Window title: Hammel Bay Homes Ltd (Canadian)  - QuickBooks Desktop Pro - [Enter Bills]
+2026-04-02 22:57:03 - Calling ProcessBill
+2026-04-02 22:57:03 - ProcessBill start
+2026-04-02 22:57:10 - ESC pressed - stopping
+2026-04-02 22:57:10 - StopProcessing after ProcessBill
+2026-04-02 22:57:10 - ProcessVendor finished
+2026-04-02 22:57:10 - Moving to next vendor
+2026-04-02 22:57:11 - Stopped by user
+2026-04-02 22:57:11 - Finished vendor list
+2026-04-02 22:57:12 - ESC pressed - stopping
+2026-04-02 22:57:14 - ESC pressed - stopping
+2026-04-02 22:57:21 - ESC pressed - stopping
+2026-04-02 23:00:00 - F2 pressed - starting ProcessVendor
+2026-04-02 23:00:00 - ProcessVendor start
+2026-04-02 23:00:00 - Initial position captured: 758,983
+2026-04-02 23:00:00 - Opening bill
+2026-04-02 23:00:02 - Window title: QBBackupTemp Fri, Mar 27 2026 02 02 20 PM and 4 more tabs - File Explorer
+2026-04-02 23:00:02 - No bill opened - exiting loop
+2026-04-02 23:00:02 - ProcessVendor finished
+2026-04-02 23:00:04 - ESC pressed - stopping
+2026-04-02 23:00:04 - ESC pressed - stopping
