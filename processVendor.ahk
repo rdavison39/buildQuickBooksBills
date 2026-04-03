@@ -80,7 +80,7 @@ ProcessVendor()
 
     ; Click once to ensure focus
     MouseClick, left, %xpos%, %ypos%
-    Sleep 300
+    Sleep 800
 
     Loop
     {

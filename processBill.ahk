@@ -7,10 +7,9 @@
 ProcessBill()
 {
     global StopProcessing
-    sleep 500
     Debug("ProcessBill start")
 
-    sleep 100
+    sleep 2000
     Loop 7
     {
         if (StopProcessing)
@@ -38,7 +37,7 @@ processItemDropdown()
             return
 
         Send {Tab}
-        Sleep 80
+        Sleep 100
     }
 
     Sleep 500

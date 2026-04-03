@@ -57,7 +57,7 @@ Loop
     ; Click first bill
 
     MouseClick, left, %BillX%, %BillY%
-    Sleep 1000
+    Sleep 1500
 
     ; Process vendor
     ProcessVendor()
