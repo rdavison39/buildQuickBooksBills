@@ -9,10 +9,48 @@ ProcessBill()
     sleep 500
     Debug("ProcessBill start")
 
-    ; Move to Customer Job dropdown
-    Click 1505, 724 
+    sleep 100
+    Loop 7
+    {
+        if (StopProcessing)
+            return
+
+        Send {Tab}
+        Sleep 100
+    }
     Sleep 200
-    Loop 2
+
+    ;move to dropdown
+    ; Copy dropdown contents
+clipboard := ""
+Send ^c
+ClipWait, 0.5
+dropdownValue := clipboard
+; msgBox drop down value is %dropdownValue%
+
+; Open dropdown
+Send !{Down}
+Sleep 1000
+
+; Move down one
+Send {Down}
+Sleep 1000
+
+
+send {enter}
+
+Send !{Down}
+; opendrop down
+Sleep 1000
+; Move up one
+Send {Up}
+Sleep 1000
+
+; select the entry
+send {enter}
+sleep 1000
+
+    Loop 6
     {
         if (StopProcessing)
             return
